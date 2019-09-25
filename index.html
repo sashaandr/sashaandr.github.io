@@ -3,509 +3,618 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Index</title>
-	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/reboot.css">
 	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/slick-theme.css">
+	<link href="fonts/circe/stylesheet.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:800i&display=swap&subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<link rel="stylesheet" href="fonts/stylesheet.css">
-	<link rel="stylesheet" href="fonts/myr/stylesheet.css">
 
+	
 </head>
 <body>
 
-	<header>
+	<header class="header header-main">
 		<div class="container">
-			<div class="row">
-				<div class="col-xl-3 col-lg-4">
-					<div class="logo"><a href="/"><img src="img/logo.png" alt="logo"></a></div>
-				</div>
-				<div class="col-xl-6 col-lg-8">
-					<nav class="main-menu">
-						<ul>
-							<li class="open-item">
-								<a href="#" aria-label="Открыть меню"></a>
-								<div class="hidden-menu">
-									<ul class="drop">
-										<li><a href="#">О нас</a></li>
-										<li><a href="#">Портфолио</a></li>
-										<li><a href="#">Контакты</a></li>
-										<li><a href="#">Где мы строим</a></li>
-										<li><a href="#">Какой фундамент выбрать?</a></li>
-									</ul>
-								</div>
-								
-							</li>
-							<li class="foundation-item"><a href="#">Фундамент</a></li>
-							<li class="box-item"><a href="#">Коробка дома</a></li>
-							<li class="overlap-item"><a href="#">Перекрытие</a></li>
-							<li class="roof-item"><a href="#">Крыша</a></li>
-						</ul>
-					</nav>
-				</div>
-				<div class="col-xl-3 col-lg-12">
-					<div class="header-phone">
-						<a href="tel:+74957987084" class="main-phone">+7 (495) 798-70-84</a>
-						<a href="tel:+79164277724" class="mobile-phone">Моб. +7 916 427-77-24</a>
+			<div class="row">	
+				<div class="header-col-2">
+					<div class="logo">
+						<span class="logo__img">
+							<img src="img/logo.png" alt="logo">
+						</span>
+						<div class="logo__txt">
+							<span class="logo__name">
+								Zuzako
+							</span>
+							<span class="logo__subtitle">
+								выбирайте вместе с Zuzako
+							</span>
+						</div>
 					</div>
 				</div>
-			</div>	
-		</div>
-		<button class="open-menu" type="button" aria-label="Открыть меню"><span></span></button>
-		<div class="mobile-menu">
-			<div class="header-phone">
-				<a href="tel:+74957987084" class="main-phone">+7 (495) 798-70-84</a>
-				<a href="tel:+79164277724" class="mobile-phone">Моб. +7 916 427-77-24</a>
+				<div class="header-col-5">
+					<ul class="top-menu">
+						<li class="top-menu__item"><a class="top-menu__link" href="#">О проекте</a></li>
+						<li class="top-menu__item"><a class="top-menu__link" href="#">Редакция</a></li>
+						<li class="top-menu__item top-menu__item-last"><a class="top-menu__link" href="#">Рекламодателям</a></li>
+					</ul>
+				</div>
+				<div class="header-col-5 search-col">
+					<form action="/" class="search">
+						<input class="search__input" type="text" name="search">
+						<button class="search__btn" type="submit">Найти</button>
+					</form>
+				</div>
+				<div class="header-col-10 header-menu">
+					<ul class="main-menu">
+						<li class="main-menu__item">
+							<a class="main-menu__link main-menu__link-category" href="#">Все категории</a>
+						</li>
+						<li class="main-menu__item"><a class="main-menu__link" href="#">Электроника</a></li>
+						<li class="main-menu__item"><a class="main-menu__link" href="#">Бытовая техника</a></li>
+						<li class="main-menu__item"><a class="main-menu__link" href="#">Компьютерная техника</a></li>
+						<li class="main-menu__item"><a class="main-menu__link" href="#">Строительство и ремонт</a></li>
+						<!-- <li class="main-menu__item"><a class="main-menu__link" href="#">Детские товары</a></li> -->
+						<li class="main-menu__item"><a class="main-menu__link" href="#">Авто</a></li>
+						<!-- <li class="main-menu__item"><a class="main-menu__link" href="#">Дача</a></li> -->
+					</ul>
+				</div>
 			</div>
-			<ul></ul>
-			<button class="close-menu" type="button" aria-label="Закрыть меню"></button>
 		</div>
 	</header>
 
-	<section class="info-page">
-		<div class="container">
-			<div class="page-head">
-				<h1>свайный Фундамент</h1>
-				<ul class="breadcrumbs">
-					<li><a href="/">Главная</a></li>
-					<li><a href="#">Фундамент</a></li>
-					<li><a href="#">Свайный фундамент</a></li>
-					<li>Сваи ТИСЭ</li>
-				</ul>
-			</div>
-
-			<ul class="row modification-list">
-				<li class="col-lg-3">
-					<div class="modification-item" data-num="1">
-						<h4 class="modification-title">Модификация 1</h4>
-						<ul class="modification-ul">
-							<li><span>Ростверк</span> <span>300х300</span></li>
-							<li><span>Сваи</span> <span>250/600</span></li>
-							<li><span>Глубина</span> <span>1850 мм.</span></li>
-							<li><span>Арматура</span> <span>10</span></li>
-							<li><span>Бетон</span> <span>М300 (Б22,5)</span></li>
-						</ul>
-					</div>
-				</li>
-				<li class="col-lg-3">
-					<div class="modification-item active" data-num="2">
-						<h4 class="modification-title">Модификация 2</h4>
-						<ul class="modification-ul">
-							<li><span>Ростверк</span> <span>300х300</span></li>
-							<li><span>Сваи</span> <span>250/600</span></li>
-							<li><span>Глубина</span> <span>1850 мм.</span></li>
-							<li><span>Арматура</span> <span>10</span></li>
-							<li><span>Бетон</span> <span>М300 (Б22,5)</span></li>
-						</ul>
-					</div>
-				</li>
-				<li class="col-lg-3">
-					<div class="modification-item is-border" data-num="3">
-						<h4 class="modification-title">Модификация 3</h4>
-						<ul class="modification-ul">
-							<li><span>Ростверк</span> <span>300х300</span></li>
-							<li><span>Сваи</span> <span>250/600</span></li>
-							<li><span>Глубина</span> <span>1850 мм.</span></li>
-							<li><span>Арматура</span> <span>10</span></li>
-							<li><span>Бетон</span> <span>М300 (Б22,5)</span></li>
-						</ul>
-					</div>
-				</li>
-				<li class="col-lg-3">
-					<div class="modification-item" data-num="4">
-						<h4 class="modification-title">Модификация 4</h4>
-						<ul class="modification-ul">
-							<li><span>Ростверк</span> <span>300х300</span></li>
-							<li><span>Сваи</span> <span>250/600</span></li>
-							<li><span>Глубина</span> <span>1850 мм.</span></li>
-							<li><span>Арматура</span> <span>10</span></li>
-							<li><span>Бетон</span> <span>М300 (Б22,5)</span></li>
-						</ul>
-					</div>
-				</li>
-				<li class="col-lg-3">
-					<div class="modification-item" data-num="4">
-						<h4 class="modification-title">Модификация 4</h4>
-						<ul class="modification-ul">
-							<li><span>Ростверк</span> <span>300х300</span></li>
-							<li><span>Сваи</span> <span>250/600</span></li>
-							<li><span>Глубина</span> <span>1850 мм.</span></li>
-							<li><span>Арматура</span> <span>10</span></li>
-							<li><span>Бетон</span> <span>М300 (Б22,5)</span></li>
-						</ul>
-					</div>
-				</li>
-			</ul>
-
-			<div class="modification-info" id="mod1">
-				<div class="row">
-					<div class="col-lg-5">
-						<div class="modification-left">
-							<div class="modification-photo">
-								<img src="img/modification-img.png" alt="img">
-								<span>Модификация 1</span>
-							</div>
-							<div class="modification-left_txt">
-								Забиваем железобетонные сваи на мини-установке за один день для фундаментов деревянных, каменных, каркасных, железобетонных домов и построек.Фундамент подходит для строительства частных городских и загородных домов
-							</div>
-						</div>
-						
-					</div>
-					<div class="col-lg-7">
-						<div class="modification-right">
-							<div class="modification-right_title">Закажите фундамент на забивных железобетонных сваях</div>
-							<p>Забиваем железобетонные сваи на мини-установке за один день для фундаментов деревянных, каменных, каркасных, железобетонных домов и построек.</p>
-							<p>Фундамент подходит для строительства частных городских и загородных домов, малоэтажных многоквартирных домов, малоэтажных коммерческих сооружений и павильонов, а также под дачи и коттеджи, бани, гаражи, беседки, надворные постройки, опорные стенки, причалы, берегоукрепления и пирсы.</p>
-							<ul>
-								<li class="modification-right_item">
-									<div class="price">3950 руб.</div>
-									<div class="amount">Стоимость 1 сваи (материал + работа)</div>
-								</li>
-								<li class="modification-right_item">
-									<div class="price">2500 руб.</div>
-									<div class="amount">Цена за 1 м.п. ростверка (материал + работа)</div>
-								</li>
-								<li class="modification-right_item">
-									<div class="price">5000 руб.</div>
-									<div class="amount">Цена за 1 м.п. фундамента (материал + работа)</div>
-								</li>
-							</ul>
-							<div class="modification-link"><a href="#">Рассчитать</a></div>
-						</div>
-					</div>
-				</div>
-
-				<div class="row bt">
-					<div class="col-lg-6">
-						<ul class="modification-characteristics">
-							<li><span>Ростверк, ширина/высота:</span><span>400х400 мм.</span></li>
-							<li><span>Сваи ТИСЭ:</span><span>диаметр 250 мм, нижнее расширение 600 мм</span></li>
-							<li><span>Шаг между сваями ТИСЭ:</span><span>1850 мм.</span></li>
-							<li><span>Высота выхода свай из земли:</span><span>2000 мм.2000 мм.</span></li>
-							<li><span>Шаг между сваями ТИСЭ:</span><span>диаметр 12 мм.</span></li>
-							<li><span>Бетон:</span><span>М300 (Б22.5)</span></li>
-						</ul>
-					</div>
-					<div class="col-lg-5">
-						<div class="modification-additionally">
-							<p>Дополнительно Вы можете заказать:</p>
-							<ul>
-								<li><span>1</span>Изменение размеров ростверка;</li>
-								<li><span>2</span>Уменьшение шага между сваями ТИСЭ;</li>
-								<li><span>3</span>Увеличение диаметра свай ТИСЭ;</li>
-								<li><span>4</span>Увеличение высоты выхода свай из земли;</li>
-								<li><span>5</span>Увеличение диаметра арматуры;</li>
-								<li><span>6</span>Увеличение марки бетона;</li>
-							</ul>	
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="modification-info active" id="mod2">
-				<div class="row">
-					<div class="col-lg-5">
-						<div class="modification-left">
-							<div class="modification-photo">
-								<img src="img/modification-img.png" alt="img">
-								<span>Модификация 2</span>
-							</div>
-							<div class="modification-left_txt">
-								Забиваем железобетонные сваи на мини-установке за один день для фундаментов деревянных, каменных, каркасных, железобетонных домов и построек.Фундамент подходит для строительства частных городских и загородных домов
-							</div>
-						</div>
-						
-					</div>
-					<div class="col-lg-7">
-						<div class="modification-right">
-							<div class="modification-right_title">Закажите фундамент на забивных железобетонных сваях</div>
-							<p>Забиваем железобетонные сваи на мини-установке за один день для фундаментов деревянных, каменных, каркасных, железобетонных домов и построек.</p>
-							<p>Фундамент подходит для строительства частных городских и загородных домов, малоэтажных многоквартирных домов, малоэтажных коммерческих сооружений и павильонов, а также под дачи и коттеджи, бани, гаражи, беседки, надворные постройки, опорные стенки, причалы, берегоукрепления и пирсы.</p>
-							<ul>
-								<li class="modification-right_item">
-									<div class="price">3950 руб.</div>
-									<div class="amount">Стоимость 1 сваи (материал + работа)</div>
-								</li>
-								<li class="modification-right_item">
-									<div class="price">2500 руб.</div>
-									<div class="amount">Цена за 1 м.п. ростверка (материал + работа)</div>
-								</li>
-								<li class="modification-right_item">
-									<div class="price">5000 руб.</div>
-									<div class="amount">Цена за 1 м.п. фундамента (материал + работа)</div>
-								</li>
-							</ul>
-							<div class="modification-link"><a href="#">Рассчитать</a></div>
-						</div>
-					</div>
-				</div>
-
-				<div class="row bt">
-					<div class="col-lg-6">
-						<ul class="modification-characteristics">
-							<li><span>Ростверк, ширина/высота:</span><span>400х400 мм.</span></li>
-							<li><span>Сваи ТИСЭ:</span><span>диаметр 250 мм, нижнее расширение 600 мм</span></li>
-							<li><span>Шаг между сваями ТИСЭ:</span><span>1850 мм.</span></li>
-							<li><span>Высота выхода свай из земли:</span><span>2000 мм.2000 мм.</span></li>
-							<li><span>Шаг между сваями ТИСЭ:</span><span>диаметр 12 мм.</span></li>
-							<li><span>Бетон:</span><span>М300 (Б22.5)</span></li>
-						</ul>
-					</div>
-					<div class="col-lg-5">
-						<div class="modification-additionally">
-							<p>Дополнительно Вы можете заказать:</p>
-							<ul>
-								<li><span>1</span>Изменение размеров ростверка;</li>
-								<li><span>2</span>Уменьшение шага между сваями ТИСЭ;</li>
-								<li><span>3</span>Увеличение диаметра свай ТИСЭ;</li>
-								<li><span>4</span>Увеличение высоты выхода свай из земли;</li>
-								<li><span>5</span>Увеличение диаметра арматуры;</li>
-								<li><span>6</span>Увеличение марки бетона;</li>
-							</ul>	
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<div class="order-calculation">
-		<div class="container">
-			<form action="/" class="calculation">
-				<div class="row">
-					<div class="col-lg-4">
-						<input type="text" placeholder="Ваш телефон">
-					</div>
-					<div class="col-lg-4">
-						<input type="text" placeholder="Ваше имя">
-					</div>
-					<div class="col-lg-4">
-						<button class="btn-link" type="submit">Заказать расчёт</button>
-					</div>
-				</div>
-				<div class="consent">
-					<input checked type="checkbox" id="checked">
-					<label for="checked">Я согласен с условиями <a href="#">соглашения на обработку и хранение пользовательских данных</a></label>
-				</div>
-			</form>
-		</div>
-	</div>
-	
-	<section class="use">
-		<div class="container">
-			<h2><span>Фундамент ТИСЭ - чаще строят под:</span></h2>
-			<ul class="row use-list">
-				<li class="col-md-4">
-					<div class="use-item">
-						<div class="use-img"><img src="img/use1.png" alt="img"></div>
-						<h3 class="use-title">Древянный/каркасный дом</h3>
-						<div class="use-weight"><span>Легкий вес</span></div>
-					</div>
-				</li>
-				<li class="col-md-4">
-					<div class="use-item">
-						<div class="use-img"><img src="img/use2.png" alt="img"></div>
-						<h3 class="use-title">Блочный дом</h3>
-						<div class="use-weight"><span>Средний вес</span></div>
-					</div>
-				</li>
-				<li class="col-md-4">
-					<div class="use-item">
-						<div class="use-img"><img src="img/use3.png" alt="img"></div>
-						<h3 class="use-title">Кирпичный дом</h3>
-						<div class="use-weight"><span>Тяжелый вес</span></div>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</section>
-
-	<section class="step">
-		<div class="container">
-			<h2><span>Этапы строительства фундамента ТИСЭ</span></h2>
-			<ul class="step-list row">
-				<li class="col-lg-3">
-					<div class="step-item">
-						<div class="step-img"><img src="img/step1.png" alt="step"></div>
-						<h3 class="step-title">Подготовка</h3>
-						<p class="step-desc">Забиваем железобетонные сваи на мини-установке за один день для фундаментов деревянных, каменных, каркасных, железобетонных домов и построек.</p>
-						<span class="step-number">1</span>
-					</div>
-				</li>
-				<li class="col-lg-3">
-					<div class="step-item">
-						<div class="step-img"><img src="img/step2.png" alt="step"></div>
-						<h3 class="step-title">Подготовка</h3>
-						<p class="step-desc">Забиваем железобетонные сваи на мини-установке за один день для фундаментов деревянных, каменных, каркасных, железобетонных домов и построек.</p>
-						<span class="step-number">2</span>
-					</div>
-				</li>
-				<li class="col-lg-3">
-					<div class="step-item">
-						<div class="step-img"><img src="img/step3.png" alt="step"></div>
-						<h3 class="step-title">Подготовка</h3>
-						<p class="step-desc">Забиваем железобетонные сваи на мини-установке за один день для фундаментов деревянных, каменных, каркасных, железобетонных домов и построек.</p>
-						<span class="step-number">3</span>
-					</div>
-				</li>
-				<li class="col-lg-3">
-					<div class="step-item">
-						<div class="step-img"><img src="img/step4.png" alt="step"></div>
-						<h3 class="step-title">Подготовка</h3>
-						<p class="step-desc">Забиваем железобетонные сваи на мини-установке за один день для фундаментов деревянных, каменных, каркасных, железобетонных домов и построек.</p>
-						<span class="step-number">4</span>
-					</div>
-				</li>
-				<li class="col-lg-3">
-					<div class="step-item">
-						<div class="step-img"><img src="img/step5.png" alt="step"></div>
-						<h3 class="step-title">Подготовка</h3>
-						<p class="step-desc">Забиваем железобетонные сваи на мини-установке за один день для фундаментов деревянных, каменных, каркасных, железобетонных домов и построек.</p>
-						<span class="step-number">5</span>
-					</div>
-				</li>
-				<li class="col-lg-3">
-					<div class="step-item">
-						<div class="step-img"><img src="img/step6.png" alt="step"></div>
-						<h3 class="step-title">Подготовка</h3>
-						<p class="step-desc">Забиваем железобетонные сваи на мини-установке за один день для фундаментов деревянных, каменных, каркасных, железобетонных домов и построек.</p>
-						<span class="step-number">6</span>
-					</div>
-				</li>
-				<li class="col-lg-3">
-					<div class="step-item">
-						<div class="step-img"><img src="img/step7.png" alt="step"></div>
-						<h3 class="step-title">Подготовка</h3>
-						<p class="step-desc">Забиваем железобетонные сваи на мини-установке за один день для фундаментов деревянных, каменных, каркасных, железобетонных домов и построек.</p>
-						<span class="step-number">7</span>
-					</div>
-				</li>
-				<li class="col-lg-3">
-					<div class="step-item">
-						<div class="step-img"><img src="img/step8.png" alt="step"></div>
-						<h3 class="step-title">Подготовка</h3>
-						<p class="step-desc">Забиваем железобетонные сваи на мини-установке за один день для фундаментов деревянных, каменных, каркасных, железобетонных домов и построек.</p>
-						<span class="step-number">8</span>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</section>
-
-	<section class="work">
-		<div class="container">
-			<h2><span>наши работы</span></h2>	
-			<ul class="row work-list">
-				<li class="col-lg-4 col-md-6">
-					<div class="work-item">
-						<div class="work-img">
-							<img src="img/work1.png" alt="work">
-						</div>
-						<h3 class="work-title">Фундамент для частного дома</h3>
-						<div class="work-label">
-							<a href="#">Фундамент</a>
-							<a href="#">Москва</a>
-						</div>
-						<div class="work-overlay"></div>
-					</div>
-				</li>
-
-				<li class="col-lg-4 col-md-6">
-					<div class="work-item">
-						<div class="work-img">
-							<img src="img/work2.png" alt="work">
-						</div>
-						<h3 class="work-title">крыша для частного дома</h3>
-						<div class="work-label">
-							<a href="#">крыша</a>
-							<a href="#">сергиев-посад</a>
-						</div>
-						<div class="work-overlay"></div>
-					</div>
-				</li>
-
-				<li class="col-lg-4 col-md-6">
-					<div class="work-item">
-						<div class="work-img">
-							<img src="img/work3.png" alt="work">
-						</div>
-						<h3 class="work-title">коробка для частного дома</h3>
-						<div class="work-label">
-							<a href="#">коробка дома</a>
-							<a href="#">Москва</a>
-						</div>
-						<div class="work-overlay"></div>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</section>
-
-	<section class="comment">
-		<div class="container">
-			<h2><span>Отзывы наших клиентов</span></h2>
-			<ul class="row comment-list">
-				<li class="col-lg-4">
-					<div class="comment-item">
-						<div class="comment-name">Сергей Владимиров</div>
-						<div class="comment-location">32 года, Москва</div>
-						<div class="comment-txt">Селекция бренда специфицирует межличностный медиавес. Не факт, что информационная связь с потребителем индуктивно индуцирует охват аудитории. Сервисная стратегия существенно экономит фирменный конкурент, осознавая социальную ответственность бизнеса. Лидерство в продажах достижимо в разумные сроки.</div>
-						<div class="comment-work"><img src="img/comment-work.png" alt="comment-work"></div>
-					</div>
-				</li>
-
-				<li class="col-lg-4">
-					<div class="comment-item">
-						<div class="comment-name">Сергей Владимиров</div>
-						<div class="comment-location">32 года, Москва</div>
-						<div class="comment-txt">Селекция бренда специфицирует межличностный медиавес. Не факт, что информационная связь с потребителем индуктивно индуцирует охват аудитории. Сервисная стратегия существенно экономит фирменный конкурент, осознавая социальную ответственность бизнеса. Лидерство в продажах достижимо в разумные сроки.</div>
-					</div>
-				</li>
-
-				<li class="col-lg-4">
-					<div class="comment-item">
-						<div class="comment-name">Сергей Владимиров</div>
-						<div class="comment-location">32 года, Москва</div>
-						<div class="comment-txt">Селекция бренда специфицирует межличностный медиавес. Не факт, что информационная связь с потребителем индуктивно индуцирует охват аудитории. Сервисная стратегия существенно экономит фирменный конкурент, осознавая социальную ответственность бизнеса. Лидерство в продажах достижимо в разумные сроки.</div>
-					</div>
-				</li>
-
-				<li class="col-lg-4">
-					<div class="comment-item">
-						<div class="comment-name">Сергей Владимиров</div>
-						<div class="comment-location">32 года, Москва</div>
-						<div class="comment-txt">Селекция бренда специфицирует межличностный медиавес. Не факт, что информационная связь с потребителем индуктивно индуцирует охват аудитории. Сервисная стратегия существенно экономит фирменный конкурент, осознавая социальную ответственность бизнеса. Лидерство в продажах достижимо в разумные сроки.</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</section>
-
-	<section class="seo">
+	<div class="mobile-header">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-8">	
-					<div class="seo-item">
-						<h2>Текст для SEO-продвижения</h2>
-						<p>Селекция бренда специфицирует межличностный медиавес. Не факт, что информационная связь с потребителем индуктивно индуцирует охват аудитории. Сервисная стратегия существенно экономит фирменный конкурент, осознавая социальную ответственность бизнеса. Лидерство в продажах достижимо в разумные сроки. Поэтому стимулирование сбыта редко соответствует рыночным ожиданиям.</p>
-						<p>Формат события, следовательно, основан на опыте повседневного применения. Медиапланирование создает диктат потребителя. Потребительская культура, суммируя приведенные примеры, инновационна. Рекламный клаттер довольно хорошо сбалансирован. А вот по мнению аналитиков концепция развития индуцирует имидж, полагаясь на инсайдерскую информацию. Инвестиционный продукт, как принято считать, существенно ускоряет продвигаемый product placement.</p>
-						<p>Интересно отметить, что косвенная реклама позиционирует ролевой метод изучения рынка. Изменение глобальной стратегии, конечно, восстанавливает стратегический имидж, повышая конкуренцию. Жизненный цикл продукции, вопреки мнению П.Друкера, директивно раскручивает коллективный имидж предприятия, опираясь на опыт западных коллег. Партисипативное планирование синхронизирует имидж предприятия, работая над проектом. Рекламный бриф программирует конструктивный инструмент маркетинга. Создание приверженного покупателя не критично.</p>
+				<button class="mobile-header__btn">
+					
+				</button>
+				<div class="mobile-header__logo">
+					<img src="img/mobile-logo.png" alt="logo">
+					<span>Zuzako</span>
+				</div>
+				<a href="#" class="mobile-header__link"></a>
+			</div>
+		</div>
+	</div>
+
+	<section class="banner">
+		<div class="from-top">
+			<div>
+				<svg style="top: 0px;" class="jddQqE svg1" viewBox="0 0 100 25" preserveAspectRatio="none">
+					<defs>
+						<mask id="leftClip" clipPathUnits="objectBoundingBox">
+							<polygon points="0,0 0,30 45,30 55,0" fill="#fff" stroke="#fff" stroke-width="1"></polygon>
+						</mask>
+					</defs>
+					<image xlink:href="img/banner.jpg" width="100%" height="100%" mask="url(#leftClip)"></image>
+				</svg>
+			</div>
+		</div>
+		<div class="from-bottom">
+			<div>
+				<svg style="bottom: 0px;" class="jddQqE svg2" viewBox="0 0 100 25" preserveAspectRatio="none">
+					<defs>
+						<mask id="rightClip" clipPathUnits="objectBoundingBox">
+							<polygon points="55,0 100,0 100,30 45,30" fill="#fff" stroke="#fff" stroke-width="1"></polygon>
+						</mask>
+					</defs>
+					<image xlink:href="img/banner.jpg" width="100%" height="100%" mask="url(#rightClip)"></image>
+				</svg>
+			</div>
+		</div>
+		<div class="banner__overlay"></div>
+		<div class="banner__title">ТОП</div>
+		<div class="banner__line"></div>
+		<div class="container">
+			<div class="slider">
+				<div class="slider__item slider__item-first">
+					<div class="slider__inner"><a href="#" data-image="img/banner.jpg" class="slider__link slider__link-active">3 телевизора Samsung<br> c ярким изображением<br> и технологией QLED</a></div>
+				</div>
+				<div class="slider__item slider__item-second" >
+					<div class="slider__inner"><a href="#" data-image="img/banner2.jpg" class="slider__link">Какие выбрать обои<br> для спальни:<br> тренды 2019</a></div>
+				</div>
+				<div class="slider__item slider__item-third" >
+					<div class="slider__inner"><a href="#" data-image="img/banner1.jpg" class="slider__link">5 заменителей сахара,<br> с которыми можно<br> не отказываться<br> от сладкого</a></div>
+				</div>
+				<div class="slider__item slider__item-fourth" >
+					<div class="slider__inner"><a href="#" data-image="img/banner2.jpg" class="slider__link">В чём хранить<br> замороженные<br> продукты</a></div>
+				</div>
+				<div class="slider__item slider__item-fifth" >
+					<div class="slider__inner"><a href="#" data-image="img/banner1.jpg" class="slider__link">3 платья на свадьбу<br> для мамы невесты<br> или жениха</a></div>
+				</div>
+				<div class="slider__item" >
+					<div class="slider__inner"><a href="#" data-image="img/banner2.jpg" class="slider__link">4 платья на свадьбу<br> для мамы невесты<br> или жениха</a></div>
+				</div>
+			</div>
+
+			<div class="slider-arrow">
+				<button type="button" class="prev-slide" aria-label="prev"><img src="img/icons/arrow-prev.svg" alt="prev"></button>
+				<button type="button" class="next-slide" aria-label="next"><img src="img/icons/arrow-next.svg" alt="next"></button>
+			</div>
+		</div>
+	</section>
+
+	<section class="news">
+		<div class="container">
+			<div class="row">
+				<div class="news-col-5">
+					<div class="news__title">Новости</div>
+					<ul class="newsList">
+						<li class="newsList__item">
+							<span class="newsList__date">21.08.19</span>
+							<a href="#" class="newsList__link"><span>Электросамокат догоняет велосипед: популярные виды летнего транспорта</span></a>
+						</li>
+						<li class="newsList__item">
+							<span class="newsList__date">21.08.19</span>
+							<a href="#" class="newsList__link"><span>Названы регионы с самой большой долей затрат на еду</span></a>
+						</li>
+						<li class="newsList__item">
+							<span class="newsList__date">21.08.19</span>
+							<a href="#" class="newsList__link"><span>Города с самыми высокими ценами на товары для школы</span></a>
+						</li>
+						<li class="newsList__item">
+							<span class="newsList__date">21.08.19</span>
+							<a href="#" class="newsList__link"><span>В России запретят анонимные электронные<br> платежи</span></a>
+						</li>
+						<li class="newsList__item">
+							<span class="newsList__date">21.08.19</span>
+							<a href="#" class="newsList__link"><span>В Госдума внесен проект об идентификации поль-зователей электронной почты по номеру телефона</span></a>
+						</li>
+					</ul>
+				</div>
+				<div class="news-col-7">
+					<div class="newsPopular">
+						<div class="grid1">
+							<div class="newsPopular__item" style="background-image: url(img/pop1.png)">
+								<div class="newsPopular__inner">
+									<a href="#" class="newsPopular__link">Зачем нужны автокормушки для животных</a>
+									<div class="newsPopular__bottom">
+										<span class="newsPopular__label">топ лучших</span>
+										<span class="newsPopular__view">497</span>
+									</div>
+								</div>
+								<div class="newsPopular__overlay"></div>
+							</div>
+						</div>
+						<div class="grid2">
+							<div class="newsPopular__item" style="background-image: url(img/pop2.png)">
+								<div class="newsPopular__inner">
+									<a href="#" class="newsPopular__link">5 бюджетных летних шин китайского производства</a>
+									<div class="newsPopular__bottom">
+										<span class="newsPopular__label">топ лучших</span>
+										<span class="newsPopular__view">497</span>
+									</div>
+								</div>
+								<div class="newsPopular__overlay"></div>
+							</div>
+						</div>
+						<div class="grid3">
+							<div class="newsPopular__item newsPopular__item-big" style="background-image: url(img/pop3.png)">
+								<div class="newsPopular__inner">
+									<a href="#" class="newsPopular__link newsPopular__link-fz">6 эффективных средств для лечения и укрепления ногтей</a>
+									<div class="newsPopular__bottom">
+										<span class="newsPopular__label">топ лучших</span>
+										<span class="newsPopular__view">497</span>
+									</div>
+								</div>
+								<div class="newsPopular__overlay"></div>
+							</div>
+						</div>	
 					</div>
 				</div>
-				<div class="col-lg-4">	
-					<div class="last-article">
-						<h2>Последняя статья</h2>
-						<div class="last-article_item">
-							<h3 class="last-article_title">Название статьи для seo продвижения</h3>
-							<div class="last-article_label">
-								<span class="heading">Рубрика</span>
-								<span class="date">21.10.2017</span>
+			</div>
+		</div>
+	</section>
+
+	<section class="rubrics">	
+		<div class="container">
+			<div class="section-head">
+				<div class="title">Идеи для дома</div>
+				<a href="#" class="view-all">Посмотреть всё</a>
+			</div>
+			<div class="articleList">
+				<div class="articleList__slide">
+					<div class="articleItem">
+						<div class="articleItem__img">
+							<img src="img/article1.png" alt="img">
+							<span class="articleItem__label articleItem__label-choise">выбор</span>
+						</div>
+						<a href="#" class="articleItem__link">Как делать ремонт в ванной комнате</a>
+						<p class="articleItem__desc">Пошаговая инструкция с фото</p>
+						<div class="articleItem__bottom">
+							<div class="articleItem__author">
+								<div class="articleItem__authorPhoto">
+									<img src="img/user.png" alt="author">
+								</div>
+								<div class="articleItem__authorName">Маргарита Лапшина</div>
 							</div>
-							<div class="last-article_img">
-								<img src="img/article.png" alt="article">
+							<div class="articleItem__view">497</div>
+						</div>
+					</div>
+				</div>
+				<div class="articleList__slide">
+					<div class="articleItem">
+						<div class="articleItem__img">
+							<img src="img/article2.png" alt="img">
+							<span class="articleItem__label articleItem__label-review">обзор</span>
+						</div>
+						<a href="#" class="articleItem__link">Как  правильно наносить на стены жидкие обои</a>
+						<p class="articleItem__desc">Рассмотрим виды жидких обоев и спо- собы их нанесения на стены</p>
+						<div class="articleItem__bottom">
+							<div class="articleItem__author">
+								<div class="articleItem__authorPhoto">
+									<img src="img/user.png" alt="author">
+								</div>
+								<div class="articleItem__authorName">Маргарита Лапшина</div>
 							</div>
-							<div class="last-article_overlay"></div>
+							<div class="articleItem__view">497</div>
+						</div>
+					</div>
+				</div>
+				<div class="articleList__slide">
+					<div class="articleItem">
+						<div class="articleItem__img">
+							<img src="img/article3.png" alt="img">
+							<span class="articleItem__label articleItem__label-video">видеообзор</span>
+						</div>
+						<a href="#" class="articleItem__link">Как отделать балкон вагонкой</a>
+						<p class="articleItem__desc">Пошаговая инструкция с фото</p>
+						<div class="articleItem__bottom">
+							<div class="articleItem__author">
+								<div class="articleItem__authorPhoto">
+									<img src="img/user.png" alt="author">
+								</div>
+								<div class="articleItem__authorName">Маргарита Лапшина</div>
+							</div>
+							<div class="articleItem__view">497</div>
+						</div>
+					</div>
+				</div>
+				<div class="articleList__slide">
+					<div class="articleItem">
+						<div class="articleItem__img">
+							<img src="img/article4.png" alt="img">
+							<span class="articleItem__label articleItem__label-opinion">мнение читателя</span>
+						</div>
+						<a href="#" class="articleItem__link">5 кондиционеров, которые спасут от жары</a>
+						<p class="articleItem__desc">Топ марок, которые не поломаются в от- ветственный момент</p>
+						<div class="articleItem__bottom">
+							<div class="articleItem__author">
+								<div class="articleItem__authorPhoto">
+									<img src="img/user.png" alt="author">
+								</div>
+								<div class="articleItem__authorName">Маргарита Лапшина</div>
+							</div>
+							<div class="articleItem__view">497</div>
+						</div>
+					</div>
+				</div>
+				<div class="articleList__slide">
+					<div class="articleItem">
+						<div class="articleItem__img">
+							<img src="img/article1.png" alt="img">
+							<span class="articleItem__label articleItem__label-choise">выбор</span>
+						</div>
+						<a href="#" class="articleItem__link">Как делать ремонт в ванной комнате</a>
+						<p class="articleItem__desc">Пошаговая инструкция с фото</p>
+						<div class="articleItem__bottom">
+							<div class="articleItem__author">
+								<div class="articleItem__authorPhoto">
+									<img src="img/user.png" alt="author">
+								</div>
+								<div class="articleItem__authorName">Маргарита Лапшина</div>
+							</div>
+							<div class="articleItem__view">497</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="section-head">
+				<div class="title">Забота о здоровье</div>
+				<a href="#" class="view-all">Посмотреть всё</a>
+			</div>
+			<div class="articleList">
+				<div class="articleList__slide">
+					<div class="articleItem">
+						<div class="articleItem__img">
+							<img src="img/article5.png" alt="img">
+							<span class="articleItem__label articleItem__label-top">топ лучших</span>
+						</div>
+						<a href="#" class="articleItem__link">Что выбрать для бега —рюкзак или поясную сумку</a>
+						<p class="articleItem__desc">Сравнение при реальных условиях</p>
+						<div class="articleItem__bottom">
+							<div class="articleItem__author">
+								<div class="articleItem__authorPhoto">
+									<img src="img/user.png" alt="author">
+								</div>
+								<div class="articleItem__authorName">Маргарита Лапшина</div>
+							</div>
+							<div class="articleItem__view">497</div>
+						</div>
+					</div>
+				</div>
+				<div class="articleList__slide">
+					<div class="articleItem">
+						<div class="articleItem__img">
+							<img src="img/article6.png" alt="img">
+							<span class="articleItem__label articleItem__label-review">обзор</span>
+						</div>
+						<a href="#" class="articleItem__link">5 популярных горных велосипедов</a>
+						<p class="articleItem__desc">Надежные, проходимые и удобные</p>
+						<div class="articleItem__bottom">
+							<div class="articleItem__author">
+								<div class="articleItem__authorPhoto">
+									<img src="img/user.png" alt="author">
+								</div>
+								<div class="articleItem__authorName">Маргарита Лапшина</div>
+							</div>
+							<div class="articleItem__view">497</div>
+						</div>
+					</div>
+				</div>
+				<div class="articleList__slide">
+					<div class="articleItem">
+						<div class="articleItem__img">
+							<img src="img/article7.png" alt="img">
+							<span class="articleItem__label articleItem__label-recomendation">совет эксперта</span>
+						</div>
+						<a href="#" class="articleItem__link">Как правильно подобрать контактные линзы</a>
+						<p class="articleItem__desc">Ошибки, которые совершают покупатели</p>
+						<div class="articleItem__bottom">
+							<div class="articleItem__author">
+								<div class="articleItem__authorPhoto">
+									<img src="img/user.png" alt="author">
+								</div>
+								<div class="articleItem__authorName">Маргарита Лапшина</div>
+							</div>
+							<div class="articleItem__view">497</div>
+						</div>
+					</div>
+				</div>
+				<div class="articleList__slide">
+					<div class="articleItem">
+						<div class="articleItem__img">
+							<img src="img/article8.png" alt="img">
+							<span class="articleItem__label articleItem__label-review">обзор</span>
+						</div>
+						<a href="#" class="articleItem__link">Как оборудовать место для домашних тренировок</a>
+						<p class="articleItem__desc">Для тренировок без тренажеров</p>
+						<div class="articleItem__bottom">
+							<div class="articleItem__author">
+								<div class="articleItem__authorPhoto">
+									<img src="img/user.png" alt="author">
+								</div>
+								<div class="articleItem__authorName">Маргарита Лапшина</div>
+							</div>
+							<div class="articleItem__view">497</div>
+						</div>
+					</div>
+				</div>
+				<div class="articleList__slide">
+					<div class="articleItem">
+						<div class="articleItem__img">
+							<img src="img/article1.png" alt="img">
+							<span class="articleItem__label articleItem__label-choise">выбор</span>
+						</div>
+						<a href="#" class="articleItem__link">Как делать ремонт в ванной комнате</a>
+						<p class="articleItem__desc">Пошаговая инструкция с фото</p>
+						<div class="articleItem__bottom">
+							<div class="articleItem__author">
+								<div class="articleItem__authorPhoto">
+									<img src="img/user.png" alt="author">
+								</div>
+								<div class="articleItem__authorName">Маргарита Лапшина</div>
+							</div>
+							<div class="articleItem__view">497</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="section-head">
+				<div class="title">Помощь в выборе товаров</div>
+				<a href="#" class="view-all">Посмотреть всё</a>
+			</div>
+			<div class="articleList">
+				<div class="articleList__slide">
+					<div class="articleItem">
+						<div class="articleItem__img">
+							<img src="img/article9.png" alt="img">
+							<span class="articleItem__label articleItem__label-choise">выбор</span>
+						</div>
+						<a href="#" class="articleItem__link">Как выбрать аккумуляторы для ноутбука и планшета</a>
+						<p class="articleItem__desc">Как не попасться на подделку</p>
+						<div class="articleItem__bottom">
+							<div class="articleItem__author">
+								<div class="articleItem__authorPhoto">
+									<img src="img/user.png" alt="author">
+								</div>
+								<div class="articleItem__authorName">Маргарита Лапшина</div>
+							</div>
+							<div class="articleItem__view">497</div>
+						</div>
+					</div>
+				</div>
+				<div class="articleList__slide">
+					<div class="articleItem">
+						<div class="articleItem__img">
+							<img src="img/article10.png" alt="img">
+							<span class="articleItem__label articleItem__label-top">топ лучших</span>
+						</div>
+						<a href="#" class="articleItem__link">Как выбрать сумку и рюкзак для ноутбука</a>
+						<p class="articleItem__desc">Тестим варианты и выбираем наиболее удобный</p>
+						<div class="articleItem__bottom">
+							<div class="articleItem__author">
+								<div class="articleItem__authorPhoto">
+									<img src="img/user.png" alt="author">
+								</div>
+								<div class="articleItem__authorName">Маргарита Лапшина</div>
+							</div>
+							<div class="articleItem__view">497</div>
+						</div>
+					</div>
+				</div>
+				<div class="articleList__slide">
+					<div class="articleItem">
+						<div class="articleItem__img">
+							<img src="img/article11.png" alt="img">
+							<span class="articleItem__label articleItem__label-choise">выбор</span>
+						</div>
+						<a href="#" class="articleItem__link">Как выбрать антивозрастную косметику</a>
+						<p class="articleItem__desc">Частые ошибки покупателей</p>
+						<div class="articleItem__bottom">
+							<div class="articleItem__author">
+								<div class="articleItem__authorPhoto">
+									<img src="img/user.png" alt="author">
+								</div>
+								<div class="articleItem__authorName">Маргарита Лапшина</div>
+							</div>
+							<div class="articleItem__view">497</div>
+						</div>
+					</div>
+				</div>
+				<div class="articleList__slide">
+					<div class="articleItem">
+						<div class="articleItem__img">
+							<img src="img/article12.png" alt="img">
+							<span class="articleItem__label articleItem__label-video">видеообзор</span>
+						</div>
+						<a href="#" class="articleItem__link">Как выбрать одежду для охоты и рыбалки</a>
+						<p class="articleItem__desc">Практичная комуфляжная одежда</p>
+						<div class="articleItem__bottom">
+							<div class="articleItem__author">
+								<div class="articleItem__authorPhoto">
+									<img src="img/user.png" alt="author">
+								</div>
+								<div class="articleItem__authorName">Маргарита Лапшина</div>
+							</div>
+							<div class="articleItem__view">497</div>
+						</div>
+					</div>
+				</div>
+				<div class="articleList__slide">
+					<div class="articleItem">
+						<div class="articleItem__img">
+							<img src="img/article1.png" alt="img">
+							<span class="articleItem__label articleItem__label-choise">выбор</span>
+						</div>
+						<a href="#" class="articleItem__link">Как делать ремонт в ванной комнате</a>
+						<p class="articleItem__desc">Пошаговая инструкция с фото</p>
+						<div class="articleItem__bottom">
+							<div class="articleItem__author">
+								<div class="articleItem__authorPhoto">
+									<img src="img/user.png" alt="author">
+								</div>
+								<div class="articleItem__authorName">Маргарита Лапшина</div>
+							</div>
+							<div class="articleItem__view">497</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="section-head">
+				<div class="title">Подсказки родителям</div>
+				<a href="#" class="view-all">Посмотреть всё</a>
+			</div>
+			<div class="articleList">
+				<div class="articleList__slide">
+					<div class="articleItem">
+						<div class="articleItem__img">
+							<img src="img/article13.png" alt="img">
+							<span class="articleItem__label articleItem__label-opinion">мнение читателя</span>
+						</div>
+						<a href="#" class="articleItem__link">Как выбирать туристическую переноску для детей</a>
+						<p class="articleItem__desc">Самое важное на примере 6 популярных моделей</p>
+						<div class="articleItem__bottom">
+							<div class="articleItem__author">
+								<div class="articleItem__authorPhoto">
+									<img src="img/user.png" alt="author">
+								</div>
+								<div class="articleItem__authorName">Маргарита Лапшина</div>
+							</div>
+							<div class="articleItem__view">497</div>
+						</div>
+					</div>
+				</div>
+				<div class="articleList__slide">
+					<div class="articleItem">
+						<div class="articleItem__img">
+							<img src="img/article14.png" alt="img">
+							<span class="articleItem__label articleItem__label-review">обзор</span>
+						</div>
+						<a href="#" class="articleItem__link">5 удобных подушек для беременных</a>
+						<p class="articleItem__desc">Которые пригодятся и после рождения ребёнка</p>
+						<div class="articleItem__bottom">
+							<div class="articleItem__author">
+								<div class="articleItem__authorPhoto">
+									<img src="img/user.png" alt="author">
+								</div>
+								<div class="articleItem__authorName">Маргарита Лапшина</div>
+							</div>
+							<div class="articleItem__view">497</div>
+						</div>
+					</div>
+				</div>
+				<div class="articleList__slide">
+					<div class="articleItem">
+						<div class="articleItem__img">
+							<img src="img/article15.png" alt="img">
+							<span class="articleItem__label articleItem__label-choise">выбор</span>
+						</div>
+						<a href="#" class="articleItem__link">5 канцтоваров для левшей</a>
+						<p class="articleItem__desc">Чтобы ребёнку было комфортно заниматься</p>
+						<div class="articleItem__bottom">
+							<div class="articleItem__author">
+								<div class="articleItem__authorPhoto">
+									<img src="img/user.png" alt="author">
+								</div>
+								<div class="articleItem__authorName">Маргарита Лапшина</div>
+							</div>
+							<div class="articleItem__view">497</div>
+						</div>
+					</div>
+				</div>
+				<div class="articleList__slide">
+					<div class="articleItem">
+						<div class="articleItem__img">
+							<img src="img/article16.png" alt="img">
+							<span class="articleItem__label articleItem__label-top">топ лучших</span>
+						</div>
+						<a href="#" class="articleItem__link">Как подготовить ребёнка к школе, чтобы поддержать его здоровье</a>
+						<p class="articleItem__desc">Рекомендации врача-педиатра</p>
+						<div class="articleItem__bottom">
+							<div class="articleItem__author">
+								<div class="articleItem__authorPhoto">
+									<img src="img/user.png" alt="author">
+								</div>
+								<div class="articleItem__authorName">Маргарита Лапшина</div>
+							</div>
+							<div class="articleItem__view">497</div>
+						</div>
+					</div>
+				</div>
+				<div class="articleList__slide">
+					<div class="articleItem">
+						<div class="articleItem__img">
+							<img src="img/article1.png" alt="img">
+							<span class="articleItem__label articleItem__label-choise">выбор</span>
+						</div>
+						<a href="#" class="articleItem__link">Как делать ремонт в ванной комнате</a>
+						<p class="articleItem__desc">Пошаговая инструкция с фото</p>
+						<div class="articleItem__bottom">
+							<div class="articleItem__author">
+								<div class="articleItem__authorPhoto">
+									<img src="img/user.png" alt="author">
+								</div>
+								<div class="articleItem__authorName">Маргарита Лапшина</div>
+							</div>
+							<div class="articleItem__view">497</div>
 						</div>
 					</div>
 				</div>
@@ -513,88 +622,72 @@
 		</div>
 	</section>
 
+	<section class="subscription">
+		<div class="container">
+			<form action="/" class="subscriptionForm">
+				<div class="subscriptionForm__title">Получайте самые интересные статьи по почте</div>
+				<p class="subscriptionForm__subtitle">Мы присылаем их не чаще раза в неделю</p>
+				<div class="subscriptionForm__row">
+					<input type="email" class="subscriptionForm__input">
+					<button class="subscriptionForm__btn" type="submit">Подписаться</button>
+				</div>
+				<p class="subscriptionForm__txt">Нажимая «Подписаться», я соглашаюсь получать рекламные и иные маркетинговые сообщения от ООО «Зузако» на условиях <a href="#">Политики конфиденциальности</a> и <a href="#">Пользовательского соглашения</a>.</p>
+			</form>
+		</div>
+	</section>
 
-	<section class="feedback">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-4">
-						<div class="feedback-txt">
-							<h3>Остались вопросы?</h3>
-							<p>Оставьте заявку на бесплатную консультацию и наш менеджер свяжется с Вами в ближайшее время</p>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-6 footer-left">
+					<div class="logo">
+						<span class="logo__img logo__img-pading">
+							<img src="img/logo.png" alt="logo">
+						</span>
+						<div class="logo__txt">
+							<span class="logo__name logo__name-fz35">
+								Zuzako
+							</span>
+							<span class="logo__subtitle">
+								выбирайте вместе с Zuzako
+							</span>
 						</div>
 					</div>
-					<div class="col-lg-3">
-						<div class="feedback-img"><img src="img/feedback.png" alt="feedback"></div>
-					</div>
-					<div class="col-lg-4">
-						<form action="/" class="feedback-form">
-							<input type="text" placeholder="Ваш телефон">
-							<input type="text" placeholder="Ваше имя">
-							<div class="consent">
-								<input checked type="checkbox" id="checked">
-								<label for="checked">Я согласен с условиями <a href="#">соглашения на обработку и хранение пользовательских данных</a></label>
-							</div>
-							<button type="submit">Получить скидку</button>
-						</form>
-					</div>
+					<p class="footer__txt">Мы используем cookie-файлы, чтобы получать статистику и делать контент более интересным. Также cookie используются для того,<br> чтобы реклама была более релевантной. Вы можете прочитать подробнее о cookie-файлах и изменить настройки вашего браузера.</p>
 				</div>
-			</div>
-		</section>	
+				<div class="footer-col-6 footer-menu">
+					<ul class="footerMenu">
+						<li class="footerMenu__item"><a href="#" class="footerMenu__link">О проекте</a></li>
+						<li class="footerMenu__item"><a href="#" class="footerMenu__link">Редакция</a></li>
+						<li class="footerMenu__item"><a href="#" class="footerMenu__link">Рекламодателям</a></li>
+					</ul>
 
-	<footer>
-		<div class="top-footer">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<div class="footer-title">Информация о компании</div>
-						<ul class="footer-menu">
-							<li><a href="#">О компании</a></li>
-							<li><a href="#">Портфолио</a></li>
-							<li><a href="#">Контакты</a></li>
-							<li><a href="#">Наши услуги</a></li>
-						</ul>
-					</div>
-					<div class="col-md-4">
-						<div class="footer-title">Наши услуги</div>
-						<ul class="footer-menu">
-							<li><a href="#">Фундамент</a></li>
-							<li><a href="#">Коробка дома</a></li>
-							<li><a href="#">Кровля</a></li>
-							<li><a href="#">Дополнительно</a></li>
-						</ul>
-					</div>
-					<div class="col-md-4">
-						<div class="footer-title">Дополнительно</div>
-						<ul class="footer-menu">
-							<li><a href="#">Политика конфденциальности в отношении хранения и обработки пользовательских данных</a></li>
-							<li><a href="#">Соглашение на обработку и хранение пользовалельских данных</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
+					<ul class="footerMenu">
+						<li class="footerMenu__item"><a href="#" class="footerMenu__link">Покупателям</a></li>
+						<li class="footerMenu__item"><a href="#" class="footerMenu__link">Сотрудничество</a></li>
+						<li class="footerMenu__item"><a href="#" class="footerMenu__link">Обратная связь</a></li>
+					</ul>
 
-		<div class="bottom-footer">
-			<div class="container">	
-				<div class="row">
-					<div class="col-lg-3">
-						<div class="footer-logo"><img src="img/footer-logo.png" alt="footer-logo"></div>
-					</div>
-					<div class="col-lg-5">
-						<div class="footer-phone"><span><a href="tel:+74957987084">+7 (495) 798-70-84</a>, <a href="tel:+79164277724">+7 (916) 427-77-24</a></span></div>
-					</div>
-					<div class="col-lg-4">
-						<div class="footer-location"><span>г.Москва, Тестовый проезд 16 стр. 1 офис 6</span></div>
-					</div>
+					<ul class="footerMenu footerMenu-last">
+						<li class="footerMenu__item"><a href="#" class="footerMenu__link footerMenu__link-underline">Политика конфиденциальности</a></li>
+						<li class="footerMenu__item"><a href="#" class="footerMenu__link footerMenu__link-underline">Пользовательское соглашение</a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
 	</footer>
 	
+	
+	
 
-<script src="js/libs.min.js"></script>
-<script src="js/slick.min.js"></script>
-<script src="js/common.js"></script>
+	<script src="js/libs.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/common.js"></script>
+	
+	
+
+
+
 </body>
 </html>
 

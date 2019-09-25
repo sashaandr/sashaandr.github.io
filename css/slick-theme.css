@@ -202,3 +202,10 @@
     opacity: .75;
     color: black;
 }
+
+.ymaps-b-balloon__content {
+  border: none !important;
+  background: none !important; }
+
+.ymaps-b-balloon__br, .ymaps-b-balloon__bl, .ymaps-b-balloon__tr, .ymaps-b-balloon__tl, .ymaps-shadows-pane, .ymaps-b-balloon__close {
+  display: none !important; }
