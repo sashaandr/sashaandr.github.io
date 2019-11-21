@@ -335,8 +335,7 @@ template {
   /*fix floating problems*/
   overflow: hidden;
   *zoom: 1;
-  /*end of fix floating problems*/
-  width: 190px;
+  width: 110px;
   position: relative;
   display: -webkit-flex;
   display: -moz-flex;
@@ -355,8 +354,8 @@ template {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   
-  width: 30px;
-  height: 30px;
+  width: 18px;
+  height: 18px;
   left: 0;
   position: absolute;
   
@@ -366,14 +365,14 @@ template {
 
 #reviewStars-input input:checked ~ label {
   background: transparent url(../img/icons/star-full.svg) 0 0 no-repeat;
-  width: 30px;
-  height: 30px;
+  width: 18px;
+  height: 18px;
 }
 
 #reviewStars-input label {
   background: transparent url(../img/icons/star-null.svg) 0 0 no-repeat;
-  width: 30px;
-  height: 30px;
+  width: 18px;
+  height: 18px;
   float: right;
   cursor: pointer;
   
@@ -383,8 +382,8 @@ template {
 
 #reviewStars-input label:hover, #reviewStars-input label:hover ~ label {
   background: transparent url(../img/icons/star-full.svg) 0 0 no-repeat;
-  width: 30px;
-  height: 30px;
+  width: 18px;
+  height: 18px;
 }
 
 #reviewStars-input #star-0 {
@@ -403,4 +402,9 @@ template {
   left: 120px;
 }
 
+
+@keyframes animatedBackground {
+  from { background-position: 0 0; }
+  to { background-position: 100% 0; }
+}
  
