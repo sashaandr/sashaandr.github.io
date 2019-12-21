@@ -35,19 +35,19 @@ html {
 
 @media (min-width: 768px) {
   .container {
-    max-width: 720px;
+    max-width: 757px;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   .container {
     max-width: 960px;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1344px) {
   .container {
-    max-width: 1200px;
+    max-width: 1336px;
   }
 }
 
@@ -642,7 +642,7 @@ html {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   .col-lg {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -814,7 +814,7 @@ html {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1344px) {
   .col-xl {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -1088,7 +1088,7 @@ html {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   .d-lg-none {
     display: none !important;
   }
@@ -1120,7 +1120,7 @@ html {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1344px) {
   .d-xl-none {
     display: none !important;
   }
@@ -1632,7 +1632,7 @@ html {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   .flex-lg-row {
     -ms-flex-direction: row !important;
     flex-direction: row !important;
@@ -1771,7 +1771,7 @@ html {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1344px) {
   .flex-xl-row {
     -ms-flex-direction: row !important;
     flex-direction: row !important;
@@ -1910,3 +1910,4 @@ html {
   }
 }
 /*# sourceMappingURL=bootstrap-grid.css.map */
+
