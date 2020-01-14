@@ -3,296 +3,1011 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Index</title>
+	
 	<!-- Шрифты -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap&subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="fonts/circe/stylesheet.css">
+	
 	<!-- Стили -->
-	<link rel="stylesheet" href="css/reboot.css">
 	<link rel="stylesheet" href="css/bootstrap-grid.css">
+	<link rel="stylesheet" href="css/menu.css">
 	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/slick-theme.css">
 	<link rel="stylesheet" href="css/main.css">
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-</head>	
-<body>	
-	<div class="top-wrapper">
-		<header class="header">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/icon">
+
+	
+</head>
+<body>
+
+	<header class="header">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-3 header__search">
+					<button class="open-search mobile-search" type="button" aria-label="Открыть посик"></button>
+				</div>
+				<div class="col-xl-2 col-6">
+					<div class="logo">
+						<span class="logo__txt">INFO.info</span>
+						<img src="img/logo.svg" alt="INFO.info" class="logo__img">
+					</div>
+				</div>
+				<div class="col-3 header__m-menu">
+					<a href="#menu" class="open-menu"><span></span></a>
+				</div>
+				<div class="col-xl-10 header__menu">
+					<nav class="nav">
+						<ul class="menu">
+							<li class="menu__item"><a href="#">Электроника</a></li>
+							<li class="menu__item"><a href="#">Бытовая техника</a></li>
+							<li class="menu__item"><a href="#">Компьютерная техника</a></li>
+							<li class="menu__item"><a href="#">Строительство и ремонт</a></li>
+							<li class="menu__item"><a href="#">Детские товары</a></li>
+							<li class="menu__item"><a href="#">Все категории</a></li>
+							<li class="menu__item menu__item_search">
+								<button class="open-search menu__search" type="button" aria-label="Открыть посик"></button>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="popup-search">
+			<button class="popup-search__close" type="button"><img src="img/icons/close.svg" alt="close"></button>
+			<div class="popup-search__overlay"></div>
+			<form action="/" class="search-form popup-search__form">
+				<div class="search-form__input-wrapper" data-text>
+					<input type="text" class="search-form__input" placeholder="Поиск...">
+				</div>
+				<button class="search-form__btn" type="submit"><i class="fas fa-search"></i></button>
+			</form>
+		</div>
+	</header>
+
+
+
+	<section class="banner">
+		<div class="slider">
+			<div class="slider-item">
+				<div class="container">
+					<div class="slider-item__info">
+						<div class="slider-item__title">3 телевизора Samsung c&nbsp;ярким изображением и&nbsp;технологией QLED</div>
+						<div class="slider-item__desc">Реальность 8K с изображением<br> без пикселей, более миллиарда оттенков</div>
+						<a href="#" class="slider-item__link">Читать далее</a>
+					</div>
+				</div>
+				<img src="img/posts/banner.jpg" alt="img" class="slider-item__img">
+			</div>
+			<div class="slider-item">
+				<div class="container">
+					<div class="slider-item__info">
+						<div class="slider-item__title">3 телевизора Samsung c&nbsp;ярким изображением и&nbsp;технологией QLED</div>
+						<div class="slider-item__desc">Реальность 8K с изображением<br> без пикселей, более миллиарда оттенков</div>
+						<a href="#" class="slider-item__link">Читать далее</a>
+					</div>
+				</div>
+				<img src="img/posts/banner.jpg" alt="img" class="slider-item__img">
+			</div>
+		</div>
+		<div class="slider-arrows"></div>
+	</section>
+
+	<section class="section">
+		<div class="container">
+			<div class="section-head section__head">
+				<div class="section-title">Идеи для дома</div>
+				<div class="section-arrows">
+					<button class="section-prev section-arrow" type="button" aria-label="Предыдущий слайд"><img src="img/icons/section-prev.svg" alt="prev"></button>
+					<button class="section-next section-arrow" type="button" aria-label="Следующий слайд"><img src="img/icons/section-next.svg" alt="next"></button>
+				</div>
+			</div>
+
+			<div class="section-slider">	
+				<div class="section-slider__item">
+					<div class="card card_slider">
+						<div class="card__inner">
+							<div class="card__img card__img_slider">
+								<img src="img/posts/remont_vannoy.png" alt="img">
+								<span class="card__label card__label_choise">выбор</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">Как делать ремонт в ванной комнате</div>
+								<p class="card__desc">Пошаговая инструкция с фото. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="section-slider__item">
+					<div class="card card_slider">
+						<div class="card__inner">
+							<div class="card__img card__img_slider">
+								<img src="img/posts/zhidkie-oboi-kakov-rashod-na-1-kv-m-24.png" alt="img">
+								<span class="card__label card__label_review">обзор</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">Как правильно наносить на стены жидкие обои</div>
+								<p class="card__desc">Рассмотрим виды жидких обоев и способы их нанесения на стены. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="section-slider__item">
+					<div class="card card_slider">
+						<div class="card__inner">
+							<div class="card__img card__img_slider">
+								<img src="img/posts/58_4.png" alt="img">
+								<span class="card__label card__label_video">видеообзор</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">Как отделать балкон вагонкой</div>
+								<p class="card__desc">Пошаговая инструкция с фото. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="section-slider__item">
+					<div class="card card_slider">
+						<div class="card__inner">
+							<div class="card__img card__img_slider">
+								<img src="img/posts/58_4.png" alt="img">
+								<span class="card__label card__label_opinion">мнение читателя</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div href="#" class="card__title">5 кондиционеров, которые спасут от жары</div>
+								<p class="card__desc">Топ марок, которые не поломаются в ответственный момент. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="section-slider__item">
+					<div class="card card_slider">
+						<div class="card__inner">
+							<div class="card__img card__img_slider">
+								<img src="img/posts/58_4.png" alt="img">
+								<span class="card__label card__label_opinion">мнение читателя</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">5 кондиционеров, которые спасут от жары</div>
+								<p class="card__desc">Топ марок, которые не поломаются в ответственный момент. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section section_bg">
+		<div class="container">
+			<div class="section-head section__head">
+				<div class="section-title">Забота о здоровье</div>
+				<div class="section-arrows">
+					<button class="section-prev section-arrow" type="button" aria-label="Предыдущий слайд"><img src="img/icons/section-prev.svg" alt="prev"></button>
+					<button class="section-next section-arrow" type="button" aria-label="Следующий слайд"><img src="img/icons/section-next.svg" alt="next"></button>
+				</div>
+			</div>
+
+			<div class="section-slider">
+				<div class="section-slider__item">
+					<div class="card card_slider">
+						<div class="card__inner">
+							<div class="card__img card__img_slider">
+								<img src="img/posts/cd9a9c00ce5161aacaffcce97f4431aa 2.png" alt="img">
+								<span class="card__label card__label_review">обзор</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">Как правильно наносить на стены жидкие обои</div>
+								<p class="card__desc">Рассмотрим виды жидких обоев и способы их нанесения на стены. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>	
+				<div class="section-slider__item">
+					<div class="card card_slider">
+						<div class="card__inner">
+							<div class="card__img card__img_slider">
+								<img src="img/posts/20 160923.png" alt="img">
+								<span class="card__label card__label_choise">выбор</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">Как делать ремонт в ванной комнате</div>
+								<p class="card__desc">Пошаговая инструкция с фото. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="section-slider__item">
+					<div class="card card_slider">
+						<div class="card__inner">
+							<div class="card__img card__img_slider">
+								<img src="img/posts/kundalini-yoga_0 1.png" alt="img">
+								<span class="card__label card__label_opinion">мнение читателя</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div href="#" class="card__title">5 кондиционеров, которые спасут от жары</div>
+								<p class="card__desc">Топ марок, которые не поломаются в ответственный момент. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="section-slider__item">
+					<div class="card card_slider">
+						<div class="card__inner">
+							<div class="card__img card__img_slider">
+								<img src="img/posts/img_froala_92fcb199e8a1dda0c7c2db9ae9232a03de23959a 2.png" alt="img">
+								<span class="card__label card__label_video">видеообзор</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">Как отделать балкон вагонкой</div>
+								<p class="card__desc">Пошаговая инструкция с фото. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+
+				
+
+				<div class="section-slider__item">
+					<div class="card card_slider">
+						<div class="card__inner">
+							<div class="card__img card__img_slider">
+								<img src="img/posts/58_4.png" alt="img">
+								<span class="card__label card__label_opinion">мнение читателя</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">5 кондиционеров, которые спасут от жары</div>
+								<p class="card__desc">Топ марок, которые не поломаются в ответственный момент. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="container">
+			<div class="section-head section__head">
+				<div class="section-title">Помощь в выборе товаров</div>
+				<div class="section-arrows">
+					<button class="section-prev section-arrow" type="button" aria-label="Предыдущий слайд"><img src="img/icons/section-prev.svg" alt="prev"></button>
+					<button class="section-next section-arrow" type="button" aria-label="Следующий слайд"><img src="img/icons/section-next.svg" alt="next"></button>
+				</div>
+			</div>
+
+			<div class="section-slider">	
+				<div class="section-slider__item">
+					<div class="card card_slider">
+						<div class="card__inner">
+							<div class="card__img card__img_slider">
+								<img src="img/posts/8a1657cca28aabea53186beaa1a461bb 1.png" alt="img">
+								<span class="card__label card__label_choise">выбор</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">Как делать ремонт в ванной комнате</div>
+								<p class="card__desc">Пошаговая инструкция с фото. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="section-slider__item">
+					<div class="card card_slider">
+						<div class="card__inner">
+							<div class="card__img card__img_slider">
+								<img src="img/posts/8980e5668b8f19d617ea213acbbe3053 2.png" alt="img">
+								<span class="card__label card__label_review">обзор</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">Как правильно наносить на стены жидкие обои</div>
+								<p class="card__desc">Рассмотрим виды жидких обоев и способы их нанесения на стены. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="section-slider__item">
+					<div class="card card_slider">
+						<div class="card__inner">
+							<div class="card__img card__img_slider">
+								<img src="img/posts/315кпвыпп 1.png" alt="img">
+								<span class="card__label card__label_video">видеообзор</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">Как отделать балкон вагонкой</div>
+								<p class="card__desc">Пошаговая инструкция с фото. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="section-slider__item">
+					<div class="card card_slider">
+						<div class="card__inner">
+							<div class="card__img card__img_slider">
+								<img src="img/posts/7500s_16 1.png" alt="img">
+								<span class="card__label card__label_opinion">мнение читателя</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div href="#" class="card__title">5 кондиционеров, которые спасут от жары</div>
+								<p class="card__desc">Топ марок, которые не поломаются в ответственный момент. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="section-slider__item">
+					<div class="card card_slider">
+						<div class="card__inner">
+							<div class="card__img card__img_slider">
+								<img src="img/posts/58_4.png" alt="img">
+								<span class="card__label card__label_opinion">мнение читателя</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">5 кондиционеров, которые спасут от жары</div>
+								<p class="card__desc">Топ марок, которые не поломаются в ответственный момент. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section section_bg">
+		<div class="container">
+			<div class="section-head section__head">
+				<div class="section-title">Подсказки родителям</div>
+				<div class="section-arrows">
+					<button class="section-prev section-arrow" type="button" aria-label="Предыдущий слайд"><img src="img/icons/section-prev.svg" alt="prev"></button>
+					<button class="section-next section-arrow" type="button" aria-label="Следующий слайд"><img src="img/icons/section-next.svg" alt="next"></button>
+				</div>
+			</div>
+
+			<div class="section-slider">
+				<div class="section-slider__item">
+					<div class="card card_slider">
+						<div class="card__inner">
+							<div class="card__img card__img_slider">
+								<img src="img/posts/57e9859b8a45650b6bce286b-1136-852 4.png" alt="img">
+								<span class="card__label card__label_review">обзор</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">Как правильно наносить на стены жидкие обои</div>
+								<p class="card__desc">Рассмотрим виды жидких обоев и способы их нанесения на стены. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>	
+				<div class="section-slider__item">
+					<div class="card card_slider">
+						<div class="card__inner">
+							<div class="card__img card__img_slider">
+								<img src="img/posts/91LQdhVDoFL 3.png" alt="img">
+								<span class="card__label card__label_choise">выбор</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">Как делать ремонт в ванной комнате</div>
+								<p class="card__desc">Пошаговая инструкция с фото. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="section-slider__item">
+					<div class="card card_slider">
+						<div class="card__inner">
+							<div class="card__img card__img_slider">
+								<img src="img/posts/LittleLife 3.png" alt="img">
+								<span class="card__label card__label_opinion">мнение читателя</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div href="#" class="card__title">5 кондиционеров, которые спасут от жары</div>
+								<p class="card__desc">Топ марок, которые не поломаются в ответственный момент. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="section-slider__item">
+					<div class="card card_slider">
+						<div class="card__inner">
+							<div class="card__img card__img_slider">
+								<img src="img/posts/untitled-1 4.png" alt="img">
+								<span class="card__label card__label_video">видеообзор</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">Как отделать балкон вагонкой</div>
+								<p class="card__desc">Пошаговая инструкция с фото. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+
+				
+
+				<div class="section-slider__item">
+					<div class="card card_slider">
+						<div class="card__inner">
+							<div class="card__img card__img_slider">
+								<img src="img/posts/58_4.png" alt="img">
+								<span class="card__label card__label_opinion">мнение читателя</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">5 кондиционеров, которые спасут от жары</div>
+								<p class="card__desc">Топ марок, которые не поломаются в ответственный момент. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section last-posts">
+		<div class="container">
+			<div class="section-head last-posts__head">
+				<div class="section-title">Последние статьи портала</div>
+			</div>
+
+			<div class="row posts-list">
+				<div class="col-xl-4 col-lg-6">
+					<div class="card">
+						<div class="card__inner">
+							<div class="card__img">
+								<img src="img/posts/399656-svetik 1.png" alt="img">
+								<span class="card__label card__label_choise">выбор</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">Как и чем украсить дом к Новому году вместе с детьми: примеры декора и идеи оформления пространства</div>
+								<p class="card__desc">Пошаговая инструкция с фото. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения. Повесить картины и расписать цветочные горшки.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-4 col-lg-6">
+					<div class="card">
+						<div class="card__inner">
+							<div class="card__img">
+								<img src="img/posts/nastol.com 1.png" alt="img">
+								<span class="card__label card__label_review">обзор</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">Как правильно наносить на стены жидкие обои</div>
+								<p class="card__desc">Рассмотрим виды жидких обоев и способы их нанесения на стены. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-4 col-lg-6">
+					<div class="card">
+						<div class="card__inner">
+							<div class="card__img">
+								<img src="img/posts/nastol.com 2.png" alt="img">
+								<span class="card__label card__label_video">видеообзор</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">Какой карнавальный костюм подобрать для школьницы на Новый год</div>
+								<p class="card__desc">Пошаговая инструкция с фото, 5 беспроигрышных вариантов. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения. Снегурочка - главная внучка на празднике, снежинка - нежный образ.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-4 col-lg-6">
+					<div class="card">
+						<div class="card__inner">
+							<div class="card__img">
+								<img src="img/posts/1-82 1.png" alt="img">
+								<span class="card__label card__label_choise">выбор</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">Как и чем украсить дом к Новому году вместе с детьми: примеры декора и идеи оформления пространства</div>
+								<p class="card__desc">Пошаговая инструкция с фото. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения. Повесить картины и расписать цветочные горшки.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-4 col-lg-6">
+					<div class="card">
+						<div class="card__inner">
+							<div class="card__img">
+								<img src="img/posts/biscuit-with-mice-4673368 2.png" alt="img">
+								<span class="card__label card__label_video">видеообзор</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">Какой карнавальный костюм подобрать для школьницы на Новый год</div>
+								<p class="card__desc">Пошаговая инструкция с фото, 5 беспроигрышных вариантов. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения. Снегурочка - главная внучка на празднике, снежинка - нежный образ.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-4 col-lg-6">
+					<div class="card">
+						<div class="card__inner">
+							<div class="card__img">
+								<img src="img/posts/Screenshot_2 1.png" alt="img">
+								<span class="card__label card__label_review">обзор</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">Как  правильно наносить на стены жидкие обои</div>
+								<p class="card__desc">Рассмотрим виды жидких обоев и способы их нанесения на стены. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-4 col-lg-6">
+					<div class="card">
+						<div class="card__inner">
+							<div class="card__img">
+								<img src="img/posts/top-originalnyh-podarkov-podruge-na-den-rozhdeniya-58 1.png" alt="img">
+								<span class="card__label card__label_review">обзор</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">Как  правильно наносить на стены жидкие обои</div>
+								<p class="card__desc">Рассмотрим виды жидких обоев и способы их нанесения на стены. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-4 col-lg-6">
+					<div class="card">
+						<div class="card__inner">
+							<div class="card__img">
+								<img src="img/posts/cd747cf36e7e4060da2af8772aa826e29b00c1b3ccf16d95dd93cfaa27d43504 1.png" alt="img">
+								<span class="card__label card__label_choise">выбор</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">Как и чем украсить дом к Новому году вместе с детьми: примеры декора и идеи оформления пространства</div>
+								<p class="card__desc">Пошаговая инструкция с фото. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения. Повесить картины и расписать цветочные горшки.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-4 col-lg-6">
+					<div class="card">
+						<div class="card__inner">
+							<div class="card__img">
+								<img src="img/posts/2018-qled-q-style-one-invisible-connection-poster 1.png" alt="img">
+								<span class="card__label card__label_video">видеообзор</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">Какой карнавальный костюм подобрать для школьницы на Новый год</div>
+								<p class="card__desc">Пошаговая инструкция с фото, 5 беспроигрышных вариантов. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения. Снегурочка - главная внучка на празднике, снежинка - нежный образ.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-4 col-lg-6">
+					<div class="card">
+						<div class="card__inner">
+							<div class="card__img">
+								<img src="img/posts/b4016c901a0d958fff46cf5b0388cc4f 1.png" alt="img">
+								<span class="card__label card__label_choise">выбор</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">Как и чем украсить дом к Новому году вместе с детьми: примеры декора и идеи оформления пространства</div>
+								<p class="card__desc">Пошаговая инструкция с фото. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения. Повесить картины и расписать цветочные горшки.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-4 col-lg-6">
+					<div class="card">
+						<div class="card__inner">
+							<div class="card__img">
+								<img src="img/posts/laagjes in haar 1.png" alt="img">
+								<span class="card__label card__label_video">видеообзор</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">Какой карнавальный костюм подобрать для школьницы на Новый год</div>
+								<p class="card__desc">Пошаговая инструкция с фото, 5 беспроигрышных вариантов. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения. Снегурочка - главная внучка на празднике, снежинка - нежный образ.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-4 col-lg-6">
+					<div class="card">
+						<div class="card__inner">
+							<div class="card__img">
+								<img src="img/posts/HLB1EKZIOr2pK1RjSZFsq6yNlXXas 2.png" alt="img">
+								<span class="card__label card__label_review">обзор</span>
+							</div>
+							<div class="card__info">
+								<div class="card__stats">
+									<span class="card__view views-count">497</span>
+									<span class="card__comments comments-count">216</span>
+								</div>
+								<div class="card__title">Как правильно наносить на стены жидкие обои</div>
+								<p class="card__desc">Рассмотрим виды жидких обоев и способы их нанесения на стены. Примеры декора и идеи оформления пространства. С помощью же декора можно расставить акценты и кардинально преобразить стиль помещения.</p>
+								<div class="card__user card-user">
+									<span class="card-user__img"><img src="img/posts/Lqp-e4CL3-0.png" alt="user"></span>
+									<span class="card-user__name">Маргарита Лапшина</span>
+								</div>
+							</div>
+							<a href="#" class="card__link"></a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="subscription">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-xl-10">
+					<form action="/" class="subscription-form">
+						<div class="flex">
+							<div class="subscription__title">Получайте самые интересные статьи по почте</div>
+							<div class="subscription__group">
+								<input type="email" required="true" class="subscription__input" placeholder="Введите email">
+								<button class="subscription__btn" type="submit">Подписаться</button>
+							</div>
+						</div>
+						<div class="subscription__txt">Нажимая «Подписаться», я соглашаюсь получать рекламные и иные маркетинговые сообщения от ООО «INFO» на условиях <a href="#">Политики конфиденциальности</a> и <a href="#">Пользовательского соглашения.</a></div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="footer-inner">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-2 col-6 m-menu"><span class="open-menu"></span></div>
-					<div class="col-lg-3 col-md-8 col-12 header__logo">
-						<div class="logo"><a href="/"><img src="img/logo.png" alt="LingoVio"></a></div>
+					<div class="col-xl-6">
+						<div class="logo footer-logo">
+							<span class="logo__txt">INFO.info</span>
+							<img src="img/logo.svg" alt="INFO.info" class="logo__img">
+						</div>
+						<div class="footer-txt">Мы используем cookie-файлы, чтобы получать статистику и делать контент более интересным. Также cookie используются для того, чтобы реклама была более релевантной. Вы можете прочитать подробнее о cookie-файлах и изменить настройки вашего браузера.</div>
 					</div>
-					<div class="col-lg-7 header__nav">
+					<div class="col-xl-3 col-md-6">
 						<nav class="nav">
-							<ul class="menu">
-								<li class="menu__item"><a href="#">Учителям +</a></li>
-								<li class="menu__item"><a href="#">Компаниям +</a></li>
-								<li class="menu__item"><a href="tel:88002475543">8 (800)  247-55-43</a></li>
+							<ul class="footer-menu">
+								<li class="footer-menu__item"><a href="#">О проекте</a></li>
+								<li class="footer-menu__item"><a href="#">Редакция</a></li>
+								<li class="footer-menu__item"><a href="#">Рекламодателям</a></li>
+								<li class="footer-menu__item"><a href="#">Покупателям</a></li>
+								<li class="footer-menu__item"><a href="#">Сотрудничество</a></li>
+								<li class="footer-menu__item"><a href="#">Обратная связь</a></li>
 							</ul>
 						</nav>
 					</div>
-					<div class="col-md-2 col-6 header__login">
-						<div class="login"><a href="#">Войти</a></div>
-					</div>
-				</div>
-			</div>
-		</header>
-
-		<div class="mobile-menu">
-			
-		</div>
-
-		<section class="main">
-			<div class="container">
-				<div class="row">
-					<div class="col-xl-5 col-lg-6">
-						<div class="main-info">
-							<h2 class="main-info__title">Выучите английский<br> в 2 раза быстрее<br> на платформе LingoVio</h2>
-							<p class="main-info__txt">Персональные, групповые и индивидуальные онлайн-курсы английского языка от 390 ₽/ урок</p>
-							<form action="/" class="main-form main-info__form">
-								<input type="email" class="main-form__input" placeholder="Ваш e-mail">
-								<button class="main-form__btn" type="submit">Начать</button>
-							</form>
-							<p class="main-info__txt">Первые 2 урока на платформе бесплатно!</p>
-						</div>
-					</div>
-					<div class="col-xl-7 col-lg-6">
-						<div class="main-img"></div>
-					</div>
-				</div>
-			</div>
-		</section>
-	</div>
-
-	<section class="partners">
-		<div class="container">
-			<div class="partners-slider">
-				<div class="partners-slider__item">
-					<div class="partners-item"><img src="img/enguide.png" alt="enguide"></div>
-				</div>
-				<div class="partners-slider__item">
-					<div class="partners-item"><img src="img/irecommend.png" alt="irecommend"></div>
-				</div>
-				<div class="partners-slider__item">
-					<div class="partners-item"><img src="img/otzovik.png" alt="otzovik"></div>
-				</div>
-				<div class="partners-slider__item">
-					<div class="partners-item"><img src="img/trustland.png" alt="trustland"></div>
-				</div>
-				<div class="partners-slider__item">
-					<div class="partners-item"><img src="img/enguide.png" alt="enguide"></div>
-				</div>
-				<div class="partners-slider__item">
-					<div class="partners-item"><img src="img/irecommend.png" alt="irecommend"></div>
-				</div>
-				<div class="partners-slider__item">
-					<div class="partners-item"><img src="img/otzovik.png" alt="otzovik"></div>
-				</div>
-				<div class="partners-slider__item">
-					<div class="partners-item"><img src="img/trustland.png" alt="trustland"></div>
-				</div>
-			</div>
-		</div>
-	</section>
-	
-	<section class="features">
-		<div class="container">
-			<div class="features-list">
-				<div class="features-item row">
-					<div class="col-xl-5 col-lg-6">
-						<div class="features-info features-info_first">
-							<div class="number-hidden features-info__number">
-								<span>01</span>
-							</div>
-							
-							<h3 class="features-info__title">Выберите подходящий курс<br> и тему для урока</h3>
-							<ul class="features-info__list">
-								<li>Более 6 онлайн-курсов</li>
-								<li>Более 160 тем для любого курса и уровня языка</li>
-								<li>Официальный электронный сертификат после прохождения курса</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-xl-7 col-lg-6">
-						<div class="features-img features-img_first"></div>
-					</div>
-				</div>
-
-				<div class="features-item row flex-column-reverse flex-lg-row">
-					<div class="col-xl-7 col-lg-6">
-						<div class="features-img features-img_second"></div>
-					</div>
-					<div class="col-xl-5 col-lg-6">
-						<div class="features-info features-info_second">
-							<div class="number-hidden features-info__number">
-								<span>02</span>
-							</div>
-							
-							<h3 class="features-info__title">Выберите подходящую дату<br> и время</h3>
-							<ul class="features-info__list">
-								<li>Персональные и групповые уроки до 5 человек в группе</li>
-								<li>Длительность урока — 60 мин.</li>
-								<li>Уроки проходят 24/7</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-
-				<div class="features-item row">
-					<div class="col-xl-5 col-lg-6">
-						<div class="features-info features-info_third">
-							<div class="number-hidden features-info__number">
-								<span>03</span>
-							</div>
-							
-							<h3 class="features-info__title">Присоединяйтесь к онлайн-уроку с любого устройства</h3>
-							<ul class="features-info__list">
-								<li>Собственная онлайн-платформа</li>
-								<li>Новая методика онлайн-обучения</li>
-								<li>Квалифицированные учителя со всего мира</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-xl-7 col-lg-6">
-						<div class="features-img features-img_third"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="testimonials">
-		<div class="container">
-			<div class="testimonials-slider">
-				<div class="testimonials-item">
-					<div class="row">
-						<div class="col-xl-7 col-lg-5">
-							<div class="testimonials-video">
-								<iframe width="100%" height="500" src="https://www.youtube.com/embed/rTCEiZk0yHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-							</div>
-						</div>
-						<div class="col-xl-5 col-lg-7">
-							<div class="testimonials-info">
-								<div class="testimonials-info__txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra bibendum massa convallis sit auctor odio bibendum placerat. Nibh et orci odio hendrerit convallis. Sed in id tortor tellus vestibulum mollis mi turpis. </div>
-								<div class="testimonials-info__foot">
-									<div class="testimonials-info__user">— Никита</div>
-									<div class="testimonials-info__arrows">
-										<button class="slick-prev slick-arrow tes-prev" aria-label="Previous" type="button" tabindex="0">Previous</button>
-										<button class="slick-next slick-arrow tes-next" aria-label="Next" type="button" tabindex="0">Next</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="testimonials-item">
-					<div class="row">
-						<div class="col-xl-7 col-lg-5">
-							<div class="testimonials-video">
-								<iframe width="100%" height="500" src="https://www.youtube.com/embed/UpZJH3F1R8c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-							</div>
-						</div>
-						<div class="col-xl-5 col-lg-7">
-							<div class="testimonials-info">
-								<div class="testimonials-info__txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra bibendum massa convallis sit auctor odio bibendum placerat. Nibh et orci odio hendrerit convallis. Sed in id tortor tellus vestibulum mollis mi turpis. </div>
-								<div class="testimonials-info__foot">
-									<div class="testimonials-info__user">— Элина</div>
-									<div class="testimonials-info__arrows">
-										<button class="slick-prev slick-arrow tes-prev" aria-label="Previous" type="button" tabindex="0">Previous</button>
-										<button class="slick-next slick-arrow tes-next" aria-label="Next" type="button" tabindex="0">Next</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="testimonials-item">
-					<div class="row">
-						<div class="col-xl-7 col-lg-5">
-							<div class="testimonials-video">
-								<iframe width="100%" height="500" src="https://www.youtube.com/embed/_-o4vQZLm9Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-							</div>
-						</div>
-						<div class="col-xl-5 col-lg-7">
-							<div class="testimonials-info">
-								<div class="testimonials-info__txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra bibendum massa convallis sit auctor odio bibendum placerat. Nibh et orci odio hendrerit convallis. Sed in id tortor tellus vestibulum mollis mi turpis. </div>
-								<div class="testimonials-info__foot">
-									<div class="testimonials-info__user">— Ирина</div>
-									<div class="testimonials-info__arrows">
-										<button class="slick-prev slick-arrow tes-prev" aria-label="Previous" type="button" tabindex="0">Previous</button>
-										<button class="slick-next slick-arrow tes-next" aria-label="Next" type="button" tabindex="0">Next</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="call-to-action">
-		<div class="container">
-			<div class="call-to-action-img"><img src="img/call-to-action.svg" alt="img"></div>
-
-			<div class="call-to-action-info">
-				<div class="call-to-action-info__title">Учите английский вместе со <span>460+ учениками</span> со всего мира прямо сейчас!</div>
-				<form action="/" class="main-form call-to-action-info__form">
-					<input type="email" class="main-form__input" placeholder="Ваш e-mail">
-					<button class="main-form__btn" type="submit">Начать</button>
-				</form>
-				<div class="call-to-action-info__txt">Первые 2 урока на платформе бесплатно!</div>
-			</div>
-		</div>
-	</section>
-	
-	<footer class="footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-xl-3 col-lg-3 col-md-4 col-12">
-					<div class="footer-logo"><img src="img/logo.png" alt="logo"></div>
-					<div class="copyright">© LingoVio, 2019</div>
-				</div>
-				<div class="col-xl-2 col-lg-3 col-md-2 col-6">
-					<ul class="footer-menu">
-						<li class="footer-menu__item"><a href="#">Войти</a></li>
-						<li class="footer-menu__item"><a href="#">О нас</a></li>
-						<li class="footer-menu__item"><a href="#">Учителям</a></li>
-						<li class="footer-menu__item"><a href="#">Компаниям</a></li>
-					</ul>
-				</div>
-				<div class="col-xl-2 col-lg-3 col-md-3 col-6">
-					<div class="footer-contacts">
-						<a href="tel:88006448531">8(800)-644-85-31</a>
-						<a href="mailto:hi@lingovio.com">hi@lingovio.com</a>
-					</div>
-				</div>
-				<div class="col-xl-3 col-lg-3 col-md-3 col-12">
-					<ul class="footer-menu footer-menu_right">
-						<li class="footer-menu__item"><a href="#">Условия использования</a></li>
-						<li class="footer-menu__item"><a href="#">Договор оферты</a></li>
-						<li class="footer-menu__item"><a href="#">Соглашение о конфиденциальности</a></li>
-					</ul>
-				</div>
-				<div class="col-md-12">
-					<div class="footer-social">
-						<ul class="social">
-							<li class="social-item social-item_inst"><a href="#"><img src="img/icons/social1.svg" alt="icon"></a></li>
-							<li class="social-item social-item_yt"><a href="#"><img src="img/icons/social2.svg" alt="icon"></a></li>
-							<li class="social-item social-item_vk"><a href="#"><img src="img/icons/social3.svg" alt="icon"></a></li>
-							<li class="social-item social-item_fb"><a href="#"><img src="img/icons/social4.svg" alt="icon"></a></li>
-							<li class="social-item social-item_ok"><a href="#"><img src="img/icons/social5.svg" alt="icon"></a></li>
+					<div class="col-xl-3 col-md-6 footer-right">
+						<ul class="footer-social">
+							<li class="footer-social__item"><a href="#"><i class="fab fa-vk"></i></a></li>
+							<li class="footer-social__item"><a href="#"><i class="fab fa-odnoklassniki"></i></a></li>
+							<li class="footer-social__item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li class="footer-social__item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li class="footer-social__item"><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
 						</ul>
+						<nav class="nav">
+							<ul class="footer-links">
+								<li class="footer-links__item"><a href="#">Политика конфиденциальности</a></li>
+								<li class="footer-links__item"><a href="#">Пользовательское соглашение</a></li>
+							</ul>
+						</nav>
 					</div>
 				</div>
 			</div>
 		</div>
 	</footer>
 
+	
+	
+	
+	
+	
+	<script src="https://kit.fontawesome.com/3142143989.js" crossorigin="anonymous"></script>
 	<script src="js/libs.min.js"></script>
+	<script src="js/menu.js"></script>
 	<script src="js/slick.min.js"></script>
-	<script src="js/jquery.cookie.js"></script>
 	<script src="js/common.js"></script>
+	
+	
+
+
+
 </body>
 </html>
 

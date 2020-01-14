@@ -209,3 +209,19 @@
 
 .ymaps-b-balloon__br, .ymaps-b-balloon__bl, .ymaps-b-balloon__tr, .ymaps-b-balloon__tl, .ymaps-shadows-pane, .ymaps-b-balloon__close {
   display: none !important; }
+
+@keyframes btn {
+  0% {
+    -webkit-box-shadow: 0 0 12px 14px rgba(0, 54, 103, .5);
+            box-shadow: 0 0 12px 14px rgba(0, 54, 103, .5); }
+  100% {
+    -webkit-box-shadow: 0 0 4px 30px transparent;
+            box-shadow: 0 0 4px 30px transparent; } }
+
+@keyframes btn1 {
+  0% {
+    -webkit-box-shadow: 0 0 12px 14px rgba(163, 181, 201, .5);
+            box-shadow: 0 0 12px 14px rgba(163, 181, 201, .5); }
+  100% {
+    -webkit-box-shadow: 0 0 4px 30px transparent;
+            box-shadow: 0 0 4px 30px transparent; } }
