@@ -2161,6 +2161,30 @@ a, button {
     -o-transition: 0s;
     transition: 0s; } }
 
+@media (min-width: 1200px) and (max-width: 1499px) {
+  .header__search {
+    display: none; }
+  .header__m-menu {
+    display: none; }
+  .header__menu {
+    display: block; }
+  .header .container {
+    max-width: 1170px; }
+  .menu__item {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px; }
+  .menu__search {
+    top: 0; } }
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .header__logo {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%; } }
+
 @media (min-width: 1024px) and (max-width: 1499px) {
   .slider-item::before {
     -webkit-clip-path: polygon(0 0, 75% 0, 100% 100%, 0 100%);
