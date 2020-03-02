@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta charset="UTF-8">
+	<title>Index</title>
+
+	<link href="fonts/1/stylesheet.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap&subset=cyrillic" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body class="body-inner">
+
+	<header class="header header_inner">
+		<div class="container">
+			<div class="row">
+				<div class="header__col header__logo">
+					<a href="/" class="logo"><img src="img/logo.svg" alt="kursfinder"></a>
+				</div>
+				<div class="header__col header__search">
+					<form action="/" class="header-search">
+						<input type="text" class="header-search__input" placeholder="Искать курс">
+						<button class="header-search__btn"><img src="img/icons/input-search.svg" alt=""></button>
+					</form>
+				</div>
+				<div class="header__col header__login">
+					<div href="#" class="login-active">
+						<span class="login-active__avatar"><img src="img/posts/img.png" alt="img"></span>
+						<span class="login-active__icon"><img src="img/icons/dropdown.svg" alt="icon"></span>
+
+						<div class="login-dropdown">
+							<a href="#" class="login-dropdown__item login-dropdown__item_profile">Мой профиль</a>
+							<a href="#" class="login-dropdown__item login-dropdown__item_setting">Настройки</a>
+							<a href="#" class="login-dropdown__item login-dropdown__item_logout">Выйти</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="content">
+		<div class="container">
+			<div class="row">
+				<aside class="aside">
+					<div class="filter">
+						<span class="filter-clear">Очистить все</span>
+						<div class="filter__head">
+							<div class="filter__title title">Фильтры</div>
+							<span class="filter__reboot"></span>
+						</div>
+						<div class="filter-item filter-item_price">
+							<div class="filter-item__head">
+								<div class="filter-item__title">Цена <span class="rub"></span></div>
+								<div class="filter-item__icon"></div>
+							</div>
+							<div class="filter-item__group">
+								<div class="filter-item__inputs">
+									<input id="price-min" type="text" class="filter-item__input" value="500">
+									<span>-</span>
+									<input id="price-max" type="text" class="filter-item__input" value="20000">
+								</div>
+								<div class="filter-slider filter-item__price" id="price"></div>
+							</div>
+						</div>
+
+						<div class="filter-item">
+							<div class="filter-item__head">
+								<div class="filter-item__title">Площадки</div>
+								<div class="filter-item__icon"></div>
+							</div>
+							<div class="checkbox-list">
+								<div class="checkbox">
+									<input type="checkbox" id="check1" class="checkbox__input">
+									<label for="check1" class="checkbox__label">Яндекс Практикум</label>
+								</div>
+								<div class="checkbox">
+									<input type="checkbox" id="check2" class="checkbox__input">
+									<label for="check2" class="checkbox__label">Skillbox</label>
+								</div>
+								<div class="checkbox">
+									<input type="checkbox" id="check3" class="checkbox__input">
+									<label for="check3" class="checkbox__label">Нетология</label>
+								</div>
+								<div class="checkbox">
+									<input type="checkbox" id="check4" class="checkbox__input">
+									<label for="check4" class="checkbox__label">Udemy</label>
+								</div>
+								<div class="checkbox">
+									<input type="checkbox" id="check5" class="checkbox__input">
+									<label for="check5" class="checkbox__label">Coursera</label>
+								</div>
+								<div class="checkbox">
+									<input type="checkbox" id="check6" class="checkbox__input">
+									<label for="check6" class="checkbox__label">Udacity</label>
+								</div>
+								<a href="#" class="all-filter">Смотреть все</a>
+							</div>
+						</div>
+
+						<div class="filter-item filter-item_complexity">
+							<div class="filter-item__head">
+								<div class="filter-item__title">Уровень сложности</div>
+								<div class="filter-item__icon"></div>
+							</div>
+							<div class="checkbox-list">
+								<div class="checkbox">
+									<input type="checkbox" id="check7" class="checkbox__input">
+									<label for="check7" class="checkbox__label">Все уровни</label>
+								</div>
+								<div class="checkbox">
+									<input type="checkbox" id="check8" class="checkbox__input">
+									<label for="check8" class="checkbox__label">Начальный</label>
+								</div>
+								<div class="checkbox">
+									<input type="checkbox" id="check9" class="checkbox__input">
+									<label for="check9" class="checkbox__label">Средний</label>
+								</div>
+								<div class="checkbox">
+									<input type="checkbox" id="check10" class="checkbox__input">
+									<label for="check10" class="checkbox__label">Профессиональный</label>
+								</div>
+							</div>
+						</div>
+
+						<div class="filter-item filter-item_solo">
+							<div class="checkbox-list">
+								<div class="checkbox">
+									<input type="checkbox" id="check11" class="checkbox__input">
+									<label for="check11" class="checkbox__label checkbox__label_bold">Возможность стажировки</label>
+								</div>
+							</div>
+						</div>
+
+						<div class="filter-item filter-item_solo">
+							<div class="checkbox-list">
+								<div class="checkbox">
+									<input type="checkbox" id="check12" class="checkbox__input">
+									<label for="check12" class="checkbox__label checkbox__label_bold">Возможность получить сертификат</label>
+								</div>
+							</div>
+						</div>
+
+						<div class="filter__foot">
+							<a href="#" class="filter__link filter__link_transparent">Очистить</a>
+							<a href="#" class="filter__link filter__link_fill">Искать</a>
+						</div>
+					</div>
+				</aside>
+
+
+
+				<div class="main">
+					<ul class="breadcrumbs">
+						<li><a href="#">Искусство и Дизайн</a></li>
+						<li>Adobe Animate</li>	
+					</ul>
+
+					<div class="courses">
+						<div class="courses__head">
+							<div class="courses__head-icon">
+								<img src="img/posts/courses.svg" alt="img">
+							</div>
+							<div class="courses__head-info">
+								<h1 class="courses__head-title title">Adobe Animate Courses</h1>
+								<p class="courses__head-txt">Найдите платные и бесплатные учебники и курсы по Adobe Animate. Выбирайте из выбранных тем и учитесь у лучших инструкторов и учреждений.</p>
+							</div>
+						</div>
+						<div class="courses__sort">
+							<div class="courses__sort-count">76 онлайн курсов</div>
+							<span class="filter-btn">Фильтры</span>
+							<div class="sort">
+								<div class="sort__txt">Сортировать по</div>
+								<div class="sort__select">
+									<span>Цена по убыванию</span>
+									<ul>
+										<li>Цена по возрастанию</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="courses__filter"></div>
+
+						<div class="courses__cards">	
+							<div class="course-card">
+								<div class="course-card__inner">
+									<div class="course-card__img">
+										<img src="img/posts/card1.png" alt="img">
+									</div>
+									<div class="course-card__info">
+										<div class="course-card__info-head">
+											<span class="course-card__platform skillbox">Skillbox</span>
+											<span class="course-card__price">76 000 <span class="rub"></span></span>
+										</div>
+										<div class="course-card__info-wrapper">
+											<div class="course-card__info-left">
+												<div class="course-card__title title">Профессия<br> графический дизайнер</div>
+												<span class="course-card__duration">24 месяца</span>
+											</div>
+											<div class="course-card__info-right">
+												<div class="course-card__links">
+													<a href="#" class="course-card__link red-btn">Перейти к курсу</a>
+													<a href="#" class="course-card__link course-card__link_transparent">Подробнее</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="course-card">
+								<div class="course-card__inner">
+									<div class="course-card__img">
+										<img src="img/posts/card2.png" alt="img">
+									</div>
+									<div class="course-card__info">
+										<div class="course-card__info-head">
+											<span class="course-card__platform skillbox">Skillbox</span>
+											<span class="course-card__price">54 000 <span class="rub"></span></span>
+										</div>
+										<div class="course-card__info-wrapper">
+											<div class="course-card__info-left">
+												<div class="course-card__title title">Профессия<br> графический дизайнер</div>
+												<span class="course-card__duration">12 месяца</span>
+											</div>
+											<div class="course-card__info-right">
+												<div class="course-card__links">
+													<a href="#" class="course-card__link red-btn">Перейти к курсу</a>
+													<a href="#" class="course-card__link course-card__link_transparent">Подробнее</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="course-card">
+								<div class="course-card__inner">
+									<div class="course-card__img">
+										<img src="img/posts/card3.png" alt="img">
+									</div>
+									<div class="course-card__info">
+										<div class="course-card__info-head">
+											<span class="course-card__platform skillbox">Skillbox</span>
+											<span class="course-card__price">46 000 <span class="rub"></span></span>
+										</div>
+										<div class="course-card__info-wrapper">
+											<div class="course-card__info-left">
+												<div class="course-card__title title">Профессия Художник компьютерной графики</div>
+												<span class="course-card__duration">12 месяца</span>
+											</div>
+											<div class="course-card__info-right">
+												<div class="course-card__links">
+													<a href="#" class="course-card__link red-btn">Перейти к курсу</a>
+													<a href="#" class="course-card__link course-card__link_transparent">Подробнее</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="course-card">
+								<div class="course-card__inner">
+									<div class="course-card__img">
+										<img src="img/posts/card4.png" alt="img">
+									</div>
+									<div class="course-card__info">
+										<div class="course-card__info-head">
+											<span class="course-card__platform skillbox">Skillbox</span>
+											<span class="course-card__price">35 000 <span class="rub"></span></span>
+										</div>
+										<div class="course-card__info-wrapper">
+											<div class="course-card__info-left">
+												<div class="course-card__title title">Профессия Дизайнер мобильных приложений</div>
+												<span class="course-card__duration">12 месяца</span>
+											</div>
+											<div class="course-card__info-right">
+												<div class="course-card__links">
+													<a href="#" class="course-card__link red-btn">Перейти к курсу</a>
+													<a href="#" class="course-card__link course-card__link_transparent">Подробнее</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="course-card">
+								<div class="course-card__inner">
+									<div class="course-card__img">
+										<img src="img/posts/card5.png" alt="img">
+									</div>
+									<div class="course-card__info">
+										<div class="course-card__info-head">
+											<span class="course-card__platform skillbox">Skillbox</span>
+											<span class="course-card__price">28 000 <span class="rub"></span></span>
+										</div>
+										<div class="course-card__info-wrapper">
+											<div class="course-card__info-left">
+												<div class="course-card__title title">Профессия Motion-дизайнер</div>
+												<span class="course-card__duration">24 месяца</span>
+											</div>
+											<div class="course-card__info-right">
+												<div class="course-card__links">
+													<a href="#" class="course-card__link red-btn">Перейти к курсу</a>
+													<a href="#" class="course-card__link course-card__link_transparent">Подробнее</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="course-card">
+								<div class="course-card__inner">
+									<div class="course-card__img">
+										<img src="img/posts/card6.png" alt="img">
+									</div>
+									<div class="course-card__info">
+										<div class="course-card__info-head">
+											<span class="course-card__platform skillbox">Skillbox</span>
+											<span class="course-card__price">24 000 <span class="rub"></span></span>
+										</div>
+										<div class="course-card__info-wrapper">
+											<div class="course-card__info-left">
+												<div class="course-card__title title">Профессия Бренд-дизайнер</div>
+												<span class="course-card__duration">12 месяца</span>
+											</div>
+											<div class="course-card__info-right">
+												<div class="course-card__links">
+													<a href="#" class="course-card__link red-btn">Перейти к курсу</a>
+													<a href="#" class="course-card__link course-card__link_transparent">Подробнее</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="pagination">	
+							<a href="#" class="pagination__prev pagination__link">Назад</a>
+							<ul class="pagination__list">
+								<li><a href="#">1</a></li>
+								<li class="selected"><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">...</a></li>
+								<li><a href="#">12</a></li>
+							</ul>
+							<a href="#" class="pagination__next pagination__link">Вперед</a>
+						</div>
+
+						<a href="#" class="more-course">Загрузить еще</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+	<footer class="footer footer-inner">	
+		<div class="container">
+			<div class="footer__line"></div>
+			<div class="row">
+				<div class="footer__col footer__col_1">
+					<div class="footer-logo"><img src="img/footer-logo.svg" alt="kursfinder"></div>
+					<div class="copyright">kursfinder, 2020 <br>Все права защищены.</div>
+				</div>
+				<div class="footer__col footer__col_2">
+					<div class="footer-item">
+						<div class="footer-item__title">Категории</div>
+						<nav>
+							<ul class="footer-menu">
+								<li class="footer-menu__item"><a href="#">Компьютерные науки</a></li>
+								<li class="footer-menu__item"><a href="#">Науки о жизни</a></li>
+								<li class="footer-menu__item"><a href="#">Математика и логика</a></li>
+								<li class="footer-menu__item"><a href="#">Физические и инженерные науки</a></li>
+								<li class="footer-menu__item"><a href="#">Искусство и Дизайн</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="footer-item">
+						<div class="footer-item__title">Категории</div>
+						<nav>
+							<ul class="footer-menu">
+								<li class="footer-menu__item"><a href="#">Бизнесс</a></li>
+								<li class="footer-menu__item"><a href="#">Маркетинг</a></li>
+								<li class="footer-menu__item"><a href="#">Язык и общение</a></li>
+								<li class="footer-menu__item"><a href="#">Личное развитие</a></li>
+								<li class="footer-menu__item"><a href="#">Здоровье и фитнесс</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="footer__col footer__col_4">
+					<div class="footer-item">
+						<div class="footer-item__title">Площадки</div>
+						<nav>
+							<ul class="footer-menu footer-menu_platform">
+								<li class="footer-menu__item"><a href="#">Яндекс Практикум</a></li>
+								<li class="footer-menu__item"><a href="#">Skillbox</a></li>
+								<li class="footer-menu__item"><a href="#">Нетология</a></li>
+								<li class="footer-menu__item"><a href="#">Udemy</a></li>
+								<li class="footer-menu__item"><a href="#">Coursera</a></li>
+								<li class="footer-menu__item"><a href="#">Udacity</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="footer-item">
+						<div class="footer-item__title">kursfinder</div>
+						<nav>
+							<ul class="footer-menu">
+								<li class="footer-menu__item"><a href="#">Блог</a></li>
+								<li class="footer-menu__item"><a href="#">Контакты</a></li>
+							</ul>
+						</nav>
+						<ul class="social">
+							<li class="social-item social-item_vk"><a href="#"></a></li>
+							<li class="social-item social-item_inst"><a href="#"></a></li>
+							<li class="social-item social-item_tg"><a href="#"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class="filter-overlay"></div>
+
+	<div class="modal" id="m-login">
+		<div class="modal__overlay"></div>
+		<div class="modal-login">
+			<span class="modal-close"><img src="img/icons/modal-close.svg" alt="close"></span>
+
+			<div class="modal-login__inner flex">
+				<div class="modal-login__left">
+					<div class="modal__title title">Войти в личный кабинет</div>
+
+					<form action="/" class="modal-form">
+						<input type="email" class="modal-form__input" placeholder="@mail">
+						<input type="password" class="modal-form__input" placeholder="Пароль">
+						<button class="modal-form__btn">Войти</button>
+					</form>
+					<div class="modal__link"><a href="#">Я забыл пароль</a></div>
+
+					<div class="login-social">
+						<div class="login-social__title">Войти через соцсети</div>
+						<div class="login-social__list">
+							<a href="#" class="login-social__item login-social__item_vk"><img src="img/icons/login-vk.svg" alt="icon"></a>
+							<a href="#" class="login-social__item login-social__item_fb"><img src="img/icons/login-fb.svg" alt="icon"></a>
+							<a href="#" class="login-social__item login-social__item_g"><img src="img/icons/login-g.svg" alt="icon"></a>
+						</div>
+					</div>
+				</div>	
+				<div class="modal-login__right">
+					<div class="modal-login__logo"><img src="img/modal-logo.svg" alt=""></div>
+					<div class="modal-login__txt">Впервые на сайте?</div>
+					<a href="#" class="modal-login__link link">Зарегестрироваться</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal" id="m-register">
+		<div class="modal__overlay"></div>
+		<div class="modal-content">
+			<span class="modal-close"><img src="img/icons/modal-close.svg" alt="close"></span>
+
+			<div class="modal-content__inner">
+				<div class="modal__title title">Регистрация</div>
+				<div class="modal__subtitle">Зарегистрируйтесь в системе для доступа к образовательным курсам</div>
+
+				<form action="/" class="modal-form">
+					<input type="text" class="modal-form__input" placeholder="Полное имя">
+					<input type="email" class="modal-form__input" placeholder="@mail">
+					<input type="password" class="modal-form__input" placeholder="Пароль">
+					<button class="modal-form__btn modal-form__btn_black">Зарегестрироваться</button>
+				</form>
+
+				<div class="login-social">
+					<div class="login-social__title">Создать аккаунт через соцсети</div>
+					<div class="login-social__list">
+						<a href="#" class="login-social__item login-social__item_vk"><img src="img/icons/login-vk.svg" alt="icon"></a>
+						<a href="#" class="login-social__item login-social__item_fb"><img src="img/icons/login-fb.svg" alt="icon"></a>
+						<a href="#" class="login-social__item login-social__item_g"><img src="img/icons/login-g.svg" alt="icon"></a>
+					</div>
+				</div>	
+				<div class="modal__consent">
+					Создавая аккаунт, принимаю условия политики и <a href="#">пользовательского соглашения</a>
+				</div>
+				<div class="modal__foot">
+					Уже зарегестрировались? <a href="#">Войти</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal" id="m-password">
+		<div class="modal__overlay"></div>
+		<div class="modal-content">
+			<span class="modal-close"><img src="img/icons/modal-close.svg" alt="close"></span>
+
+			<div class="modal-content__inner">
+				<div class="modal__title title">Забыли пароль</div>
+				<div class="password__subtitle">Если Вы забыли пароль, введите логин или E-mail. Контрольная строка для смены пароля, а также ваши регистрационные данные, будут высланы вам по E-mail</div>
+
+				<form action="/" class="modal-form">
+					<input type="email" class="modal-form__input" placeholder="E-mail">
+					<button class="modal-form__btn modal-form__btn_black">Восстановить</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script src="js/libs.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="jquery.ui.touch-punch.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>

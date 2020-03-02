@@ -1,0 +1,189 @@
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+.price-table {
+  position: relative;
+  z-index: 2;
+  margin: auto;
+  background: #fff;
+  max-width: 1170px; }
+  .price-table td {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    border-left: 1px solid #dedfe1;
+    border-right: 2px solid #fff;
+    font-weight: 500; }
+    .price-table td:first-child {
+      text-align: left;
+      padding-left: 52px;
+      font-weight: 400; }
+  .price-table tr:nth-child(even) {
+    background-color: #c6c5cd;}
+  .price-table tr:hover {
+    background-color: #c6c5cd; }
+
+.price-table tr:nth-child(odd) {
+    background-color: #e3e2e6;
+}
+
+.price-table tr:last-child {
+    background: none;
+}
+
+.price-table tr:nth-child(1) td, .price-table tr:nth-child(2) td {
+  background-color: #120f30;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 0;
+  font-weight: 600; }
+
+.price-table tr:nth-child(1) td:nth-child(1) {
+  border-left: 1px solid #797784;
+  border-right: 2px solid #fff; }
+
+.price-table tr:nth-child(1) td:nth-child(2) {
+  text-align: center;
+  border-left: 1px solid #797784;
+  border-right: 1px solid #797784;
+  border-bottom: 2px solid #fff;
+  min-width: 398px; }
+
+.price-table tr:nth-child(2) td {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  padding-left: 0; }
+
+.price-table tr:nth-child(2) td {
+  text-align: center; }
+
+.price-table tr:last-child {
+  background: none !important;
+  height: 0;
+  opacity: 0; }
+  .price-table tr:last-child td {
+    padding: 0 !important; }
+
+
+.price-table tr:nth-child(even):hover, .price-table tr:nth-child(odd):hover {
+    background-color: #c3c3c3;
+}
