@@ -1,16 +1,741 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-	<ul>
-		<li><a href="html/finmechh/index.html" target="_blank">Demo 1</a></li>
-		<li><a href="html/info/index.html" target="_blank">Demo 2</a></li>
-		<li><a href="html/site/index.html" target="_blank">Demo 3</a></li>
-		<li><a href="html/tprofi/index.html" target="_blank">Demo 4</a></li>
-		<li><a href="html/kurs/index.html" target="_blank">Demo 5</a></li>
-	</ul>
-</body>
+<html lang="ru-RU">
+  <head>
+    <meta charset="utf-8">
+    <title>Главная страница</title><!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE = edge"><![endif]-->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="static/fonts/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="static/css/styles.min.css"><!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__top">
+          <div class="container">
+            <div class="row">
+              <div class="header__top-course col">
+                <div class="course flex">
+                  <div class="course-item flex"><span class="course-item__currency">USD</span><span class="course-item__icon course-item__icon_up fcc"></span><span class="course-item__bank">ЦБ</span><span class="course-item__value">64.4711</span></div>
+                  <div class="course-item flex"><span class="course-item__currency">EUR</span><span class="course-item__icon course-item__icon_down fcc"></span><span class="course-item__bank">ЦБ</span><span class="course-item__value">71.5307</span></div>
+                </div>
+              </div>
+              <div class="header__top-menu col">
+                <nav class="nav">
+                  <ul class="top-menu flex">
+                    <li class="top-menu__item"><a href="#">Пресса о нас</a></li>
+                    <li class="top-menu__item"><a href="#">Банкир ТВ</a></li>
+                    <li class="top-menu__item"><a href="#">Контакты</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="header__top-group col flex"><a class="header-location" href="#">Москва</a><a class="header-phone" href="tel:88002012463">8 (800) 201-24-63</a>
+                <div class="user-menu flex"><a href="#">Войти</a><span>или</span><a href="#">Зарегистрироваться</a></div><a class="user"><span class="user__icon"><img src="static/images/general/user.png" alt="user"></span><span class="user__number fcc">2</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header__bottom">
+          <div class="container">
+            <div class="row">
+              <div class="header__bottom-logo col">
+                <div class="logo"><img src="static/images/general/logo.png" alt=""></div>
+              </div>
+              <div class="header__bottom-menu col">
+                <nav class="nav">
+                  <ul class="main-menu flex">
+                    <li class="main-menu__item has-child"><a href="#">Кредиты</a></li>
+                    <li class="main-menu__item has-child"><a href="#">Займы</a></li>
+                    <li class="main-menu__item has-child"><a href="#">Карты</a></li>
+                    <li class="main-menu__item has-child"><a href="#">Ипотека</a></li>
+                    <li class="main-menu__item has-child"><a href="#">Вклады </a></li>
+                    <li class="main-menu__item has-child"><a href="#">Еще</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="header__bottom-group flex col">
+                <button class="open-menu"><span></span></button>
+                <button class="header-search fcc"><img src="static/images/general/search.png" alt=""></button><a class="header-comparison fcc" href="#"><img src="static/images/general/comparison.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="m-menu">
+        <div class="m-menu__close"></div>
+        <ul class="main-menu">
+          <li class="main-menu__item has-child"><a href="#">Кредиты</a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-menu__item has-child"><a href="#">Потребительские</a>
+                <ul class="lvl3-menu">
+                  <li class="lvl3-menu__item"><a href="#">Онлайн-заявка</a></li>
+                  <li class="lvl3-menu__item"><a href="#">Без справок</a></li>
+                  <li class="lvl3-menu__item"><a href="#">Наличными</a></li>
+                  <li class="lvl3-menu__item"><a href="#">На карту</a></li>
+                </ul>
+              </li>
+              <li class="dropdown-menu__item has-child"><a href="#">Автокредиты</a></li>
+              <li class="dropdown-menu__item has-child"><a href="#">Для бизнеса</a></li>
+            </ul>
+          </li>
+          <li class="main-menu__item has-child"><a href="#">Займы</a></li>
+          <li class="main-menu__item has-child"><a href="#">Карты</a></li>
+          <li class="main-menu__item has-child"><a href="#">Ипотека</a></li>
+          <li class="main-menu__item has-child"><a href="#">Вклады </a></li>
+          <li class="main-menu__item has-child"><a href="#">Еще</a></li>
+        </ul>
+      </div>
+      <div class="main-category">
+        <div class="container">
+          <div class="main-category__list grid">
+            <div class="main-category__item main-category__item_1">
+              <div class="main-category-item">
+                <div class="main-category-item__inner main-category-item__inner_big">
+                  <div class="main-category-item__icon main-category-item__icon_big"><img src="static/images/general/main-cat1.png" alt=""></div>
+                  <div class="main-category-item__info"><a class="link main-category-item__title main-category-item__title_big" href="#">Потребительский кредит</a>
+                    <div class="main-category-item__count">414 предложений</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-category__item main-category__item_2">
+              <div class="main-category-item">
+                <div class="main-category-item__inner main-category-item__inner_column">
+                  <div class="main-category-item__icon main-category-item__icon_column"><img src="static/images/general/main-cat2.png" alt=""></div>
+                  <div class="main-category-item__info"><a class="link main-category-item__title main-category-item__title_average" href="#">Кредит бизнесу</a>
+                    <div class="main-category-item__count">414 предложений</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-category__item main-category__item_3">
+              <div class="main-category-item">
+                <div class="main-category-item__inner">
+                  <div class="main-category-item__icon"><img src="static/images/general/main-cat3.png" alt=""></div>
+                  <div class="main-category-item__info"><a class="link main-category-item__title" href="#">Кредитные карты</a>
+                    <div class="main-category-item__count">414 предложений</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-category__item main-category__item_4">
+              <div class="main-category-item">
+                <div class="main-category-item__inner">
+                  <div class="main-category-item__icon"><img src="static/images/general/main-cat4.png" alt=""></div>
+                  <div class="main-category-item__info"><a class="link main-category-item__title" href="#">Автокредиты</a>
+                    <div class="main-category-item__count">414 предложений</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-category__item main-category__item_5">
+              <div class="main-category-item">
+                <div class="main-category-item__inner">
+                  <div class="main-category-item__icon"><img src="static/images/general/main-cat5.png" alt=""></div>
+                  <div class="main-category-item__info"><a class="link main-category-item__title" href="#">Потребкредит</a>
+                    <div class="main-category-item__count">414 предложений</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-category__item main-category__item_6">
+              <div class="main-category-item">
+                <div class="main-category-item__inner">
+                  <div class="main-category-item__icon"><img src="static/images/general/main-cat6.png" alt=""></div>
+                  <div class="main-category-item__info"><a class="link main-category-item__title" href="#">Вклады</a>
+                    <div class="main-category-item__count">414 предложений</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="best-offer">
+        <div class="container">
+          <div class="block-head flex">
+            <div class="block-head__title">Лучшие предложения</div>
+            <div class="block-head__menu">
+              <ul class="tabs-menu">
+                <li class="tabs-menu__item tabs-menu__item_selected"><a href="#">Кредиты</a></li>
+                <li class="tabs-menu__item"><a href="#">Кредиты</a></li>
+                <li class="tabs-menu__item"><a href="#">Займы</a></li>
+                <li class="tabs-menu__item"><a href="#">Кредитные карты</a></li>
+                <li class="tabs-menu__item"><a href="#">Автокредит</a></li>
+              </ul>
+            </div><a class="block-head__link" href="#">Все предложения</a>
+          </div>
+          <div class="best-offer__content">
+            <div class="best-offer-slider">
+              <div class="best-offer-slider__item">
+                <div class="offer-card">
+                  <div class="offer-card__head">
+                    <div class="offer-card__logo fcc"><img src="static/images/content/offer1.png" alt="img"></div>
+                    <div class="offer-card__txt">«Максимальный доход Онлайн»</div>
+                  </div>
+                  <div class="offer-card__body">
+                    <div class="offer-card__stats flex">
+                      <div class="offer-card__stats-item"><strong>7,60%</strong><span>годовых</span></div>
+                      <div class="offer-card__stats-item"><strong>367</strong><span>дней, срок вклада</span></div>
+                    </div><a class="offer-card__link blue-btn" href="#">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+              <div class="best-offer-slider__item">
+                <div class="offer-card">
+                  <div class="offer-card__head">
+                    <div class="offer-card__logo fcc"><img src="static/images/content/offer2.png" alt="img"></div>
+                    <div class="offer-card__txt">«Максимальный доход Онлайн»</div>
+                  </div>
+                  <div class="offer-card__body">
+                    <div class="offer-card__stats flex">
+                      <div class="offer-card__stats-item"><strong>7,60%</strong><span>годовых</span></div>
+                      <div class="offer-card__stats-item"><strong>367</strong><span>дней, срок вклада</span></div>
+                    </div><a class="offer-card__link blue-btn" href="#">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+              <div class="best-offer-slider__item">
+                <div class="offer-card">
+                  <div class="offer-card__head">
+                    <div class="offer-card__logo fcc"><img src="static/images/content/offer3.png" alt="img"></div>
+                    <div class="offer-card__txt">«Максимальный доход Онлайн»</div>
+                  </div>
+                  <div class="offer-card__body">
+                    <div class="offer-card__stats flex">
+                      <div class="offer-card__stats-item"><strong>7,60%</strong><span>годовых</span></div>
+                      <div class="offer-card__stats-item"><strong>367</strong><span>дней, срок вклада</span></div>
+                    </div><a class="offer-card__link blue-btn" href="#">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+              <div class="best-offer-slider__item">
+                <div class="offer-card">
+                  <div class="offer-card__head">
+                    <div class="offer-card__logo fcc"><img src="static/images/content/offer4.png" alt="img"></div>
+                    <div class="offer-card__txt">«Максимальный доход Онлайн»</div>
+                  </div>
+                  <div class="offer-card__body">
+                    <div class="offer-card__stats flex">
+                      <div class="offer-card__stats-item"><strong>7,60%</strong><span>годовых</span></div>
+                      <div class="offer-card__stats-item"><strong>367</strong><span>дней, срок вклада</span></div>
+                    </div><a class="offer-card__link blue-btn" href="#">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+              <div class="best-offer-slider__item">
+                <div class="offer-card">
+                  <div class="offer-card__head">
+                    <div class="offer-card__logo fcc"><img src="static/images/content/offer1.png" alt="img"></div>
+                    <div class="offer-card__txt">«Максимальный доход Онлайн»</div>
+                  </div>
+                  <div class="offer-card__body">
+                    <div class="offer-card__stats flex">
+                      <div class="offer-card__stats-item"><strong>7,60%</strong><span>годовых</span></div>
+                      <div class="offer-card__stats-item"><strong>367</strong><span>дней, срок вклада</span></div>
+                    </div><a class="offer-card__link blue-btn" href="#">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="calc">
+            <div class="calc__inner flex">
+              <div class="calc__left">
+                <div class="calc__title">Кредит на любые цели</div>
+                <div class="calc-group">
+                  <div class="calc-group__title">Необходимая сумма</div>
+                  <div class="calc-group__item">
+                    <input class="calc-group__input" id="price-input" type="text" value="500000"><span class="calc-group__txt">Р</span>
+                  </div>
+                  <div class="calc-group__price"></div>
+                </div>
+                <div class="calc-group">
+                  <div class="calc-group__title">Срок кредита</div>
+                  <div class="calc-group__item">
+                    <input class="calc-group__input" id="year-input" type="text" value="на 1 год">
+                  </div>
+                  <div class="calc-group__year"></div>
+                </div>
+              </div>
+              <div class="calc__right">
+                <div class="calc__txt">Мы подберём для Вас <span>лучшие предложения</span> на самых выгодных условиях</div><a class="blue-btn calc__link" href="#">Показать варианты</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="useful-article">
+        <div class="container">
+          <div class="block-head">
+            <div class="block-head__title">Полезные статьи</div>
+            <div class="block-head__menu">
+              <ul class="tabs-menu">
+                <li class="tabs-menu__item tabs-menu__item_selected"><a href="#">Все</a></li>
+                <li class="tabs-menu__item"><a href="#">Сравнения</a></li>
+                <li class="tabs-menu__item"><a href="#">Бытовая аналитика</a></li>
+                <li class="tabs-menu__item"><a href="#">Тест-драйвы</a></li>
+                <li class="tabs-menu__item"><a href="#">Истории</a></li>
+                <li class="tabs-menu__item"><a href="#">Советы</a></li>
+              </ul>
+            </div><a class="block-head__link" href="#">Все статьи</a>
+          </div>
+          <div class="useful-article-list grid">
+            <div class="useful-article-list__item useful-article-list__item_1">
+              <div class="useful-card blue-bg" style="background-image: url(static/images/content/useful1.png);">
+                <div class="useful-card__inner">
+                  <div class="useful-card__title">Что делать, если звонят коллекторы по кредиту?</div><a class="useful-card__btn fcc link" href="#"><img src="static/images/general/arrow-btn.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+            <div class="useful-article-list__item useful-article-list__item_2">
+              <div class="useful-card pink-bg" style="background-image: url(static/images/content/useful2.png);">
+                <div class="useful-card__inner">
+                  <div class="useful-card__title">Онлайн-займы до зарплаты: преимущества быстрой ссуды</div><a class="useful-card__btn fcc link" href="#"><img src="static/images/general/arrow-btn.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+            <div class="useful-article-list__item useful-article-list__item_3">
+              <div class="useful-card purple-bg" style="background-image: url(static/images/content/useful3.png);">
+                <div class="useful-card__inner useful-card__inner_big">
+                  <div class="useful-card__title useful-card__title_big">Кредит под 7%: как бизнесу получить</div>
+                  <div class="useful-card__txt">Кредит — лишь инструмент для развития бизнеса, почему предпринимателям не стоит бояться брать в аренду деньги</div><a class="useful-card__link blue-btn link" href="#">Читать статью</a>
+                </div>
+              </div>
+            </div>
+            <div class="useful-article-list__item useful-article-list__item_4">
+              <div class="useful-card green-bg" style="background-image: url(static/images/content/useful4.png);">
+                <div class="useful-card__inner">
+                  <div class="useful-card__title">Что делать, если нечем платить кредит?</div><a class="useful-card__btn fcc link" href="#"><img src="static/images/general/arrow-btn.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+            <div class="useful-article-list__item useful-article-list__item_5">
+              <div class="useful-card darken-bg" style="background-image: url(static/images/content/useful5.png);">
+                <div class="useful-card__inner">
+                  <div class="useful-card__title">Где взять кредит с плохой кредитной историей?</div><a class="useful-card__btn fcc link" href="#"><img src="static/images/general/arrow-btn.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-news">
+        <div class="container">
+          <div class="block-head flex">
+            <div class="block-head__title">Новости</div><a class="block-head__link" href="#">Все новости</a>
+          </div>
+          <div class="main-news__list row">
+            <div class="main-news__list-item col"> 
+              <div class="main-news-item">
+                <div class="main-news-item__img"><img src="static/images/content/news1.png" alt=""></div>
+                <div class="main-news-item__info"><a class="main-news-item__link link" href="#">Мантуров: санкции помогли России стать более конкурентоспособной</a>
+                  <div class="main-news-item__foot flex"><span class="main-news-item__country">Америка</span><span class="main-news-item__date">4 часа назад</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="main-news__list-item col"> 
+              <div class="main-news-item">
+                <div class="main-news-item__img"><img src="static/images/content/news1.png" alt=""></div>
+                <div class="main-news-item__info"><a class="main-news-item__link link" href="#">Мантуров: санкции помогли России стать более конкурентоспособной</a>
+                  <div class="main-news-item__foot flex"><span class="main-news-item__country">Америка</span><span class="main-news-item__date">4 часа назад</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="main-news__list-item col"> 
+              <div class="main-news-item">
+                <div class="main-news-item__img"><img src="static/images/content/news1.png" alt=""></div>
+                <div class="main-news-item__info"><a class="main-news-item__link link" href="#">Мантуров: санкции помогли России стать более конкурентоспособной</a>
+                  <div class="main-news-item__foot flex"><span class="main-news-item__country">Америка</span><span class="main-news-item__date">4 часа назад</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="main-news__list-item col"> 
+              <div class="main-news-item">
+                <div class="main-news-item__img"><img src="static/images/content/news1.png" alt=""></div>
+                <div class="main-news-item__info"><a class="main-news-item__link link" href="#">Мантуров: санкции помогли России стать более конкурентоспособной</a>
+                  <div class="main-news-item__foot flex"><span class="main-news-item__country">Америка</span><span class="main-news-item__date">4 часа назад</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="main-news__list-item col"> 
+              <div class="main-news-item">
+                <div class="main-news-item__img"><img src="static/images/content/news1.png" alt=""></div>
+                <div class="main-news-item__info"><a class="main-news-item__link link" href="#">Мантуров: санкции помогли России стать более конкурентоспособной</a>
+                  <div class="main-news-item__foot flex"><span class="main-news-item__country">Америка</span><span class="main-news-item__date">4 часа назад</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="main-news__list-item col"> 
+              <div class="main-news-item">
+                <div class="main-news-item__img"><img src="static/images/content/news1.png" alt=""></div>
+                <div class="main-news-item__info"><a class="main-news-item__link link" href="#">Мантуров: санкции помогли России стать более конкурентоспособной</a>
+                  <div class="main-news-item__foot flex"><span class="main-news-item__country">Америка</span><span class="main-news-item__date">4 часа назад</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="main-news__list-item col"> 
+              <div class="main-news-item">
+                <div class="main-news-item__img"><img src="static/images/content/news1.png" alt=""></div>
+                <div class="main-news-item__info"><a class="main-news-item__link link" href="#">Мантуров: санкции помогли России стать более конкурентоспособной</a>
+                  <div class="main-news-item__foot flex"><span class="main-news-item__country">Америка</span><span class="main-news-item__date">4 часа назад</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="main-news__list-item col"> 
+              <div class="main-news-item">
+                <div class="main-news-item__img"><img src="static/images/content/news1.png" alt=""></div>
+                <div class="main-news-item__info"><a class="main-news-item__link link" href="#">Мантуров: санкции помогли России стать более конкурентоспособной</a>
+                  <div class="main-news-item__foot flex"><span class="main-news-item__country">Америка</span><span class="main-news-item__date">4 часа назад</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-rating">
+        <div class="container">
+          <div class="row">
+            <div class="main-rating__col">
+              <div class="block-head">
+                <div class="block-head__title">Рейтинг банков</div><a class="block-head__link" href="#">Все банки</a>
+              </div>
+              <div class="main-rating-table">
+                <div class="main-rating-table__head">
+                  <div class="main-rating-table__head-number">№</div>
+                  <div class="main-rating-table__head-bank">Банк</div>
+                  <div class="main-rating-table__head-value">Рейтинг</div>
+                  <div class="main-rating-table__head-reviews">отзывы</div>
+                </div>
+                <div class="main-rating-table__body">
+                  <div class="main-rating-table__item">
+                    <div class="main-rating-table__item-number">
+                      <div class="main-rating-table__number">1</div>
+                    </div>
+                    <div class="main-rating-table__item-bank">
+                      <div class="main-rating-table__bank"><a class="link" href="#"><img src="static/images/content/r1.png" alt=""></a></div>
+                    </div>
+                    <div class="main-rating-table__item-value">
+                      <div class="main-rating-table__value main-rating-table__value_full">100</div>
+                    </div>
+                    <div class="main-rating-table__item-reciews">
+                      <div class="main-rating-table__reviews">102 отзыва</div>
+                    </div>
+                  </div>
+                  <div class="main-rating-table__item">
+                    <div class="main-rating-table__item-number">
+                      <div class="main-rating-table__number">2</div>
+                    </div>
+                    <div class="main-rating-table__item-bank">
+                      <div class="main-rating-table__bank"><a class="link" href="#"><img src="static/images/content/r2.png" alt=""></a></div>
+                    </div>
+                    <div class="main-rating-table__item-value">
+                      <div class="main-rating-table__value">96</div>
+                    </div>
+                    <div class="main-rating-table__item-reciews">
+                      <div class="main-rating-table__reviews">84 отзыва</div>
+                    </div>
+                  </div>
+                  <div class="main-rating-table__item">
+                    <div class="main-rating-table__item-number">
+                      <div class="main-rating-table__number">3</div>
+                    </div>
+                    <div class="main-rating-table__item-bank">
+                      <div class="main-rating-table__bank"><a class="link" href="#"><img src="static/images/content/r3.png" alt=""></a></div>
+                    </div>
+                    <div class="main-rating-table__item-value">
+                      <div class="main-rating-table__value">90</div>
+                    </div>
+                    <div class="main-rating-table__item-reciews">
+                      <div class="main-rating-table__reviews">77 отзыва</div>
+                    </div>
+                  </div>
+                  <div class="main-rating-table__item">
+                    <div class="main-rating-table__item-number">
+                      <div class="main-rating-table__number">4</div>
+                    </div>
+                    <div class="main-rating-table__item-bank">
+                      <div class="main-rating-table__bank"><a class="link" href="#"><img src="static/images/content/r4.png" alt=""></a></div>
+                    </div>
+                    <div class="main-rating-table__item-value">
+                      <div class="main-rating-table__value">87</div>
+                    </div>
+                    <div class="main-rating-table__item-reciews">
+                      <div class="main-rating-table__reviews">63 отзыва</div>
+                    </div>
+                  </div>
+                  <div class="main-rating-table__item">
+                    <div class="main-rating-table__item-number">
+                      <div class="main-rating-table__number">5</div>
+                    </div>
+                    <div class="main-rating-table__item-bank">
+                      <div class="main-rating-table__bank"><a class="link" href="#"><img src="static/images/content/r5.png" alt=""></a></div>
+                    </div>
+                    <div class="main-rating-table__item-value">
+                      <div class="main-rating-table__value">85</div>
+                    </div>
+                    <div class="main-rating-table__item-reciews">
+                      <div class="main-rating-table__reviews">54 отзыва</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-rating__col">
+              <div class="block-head">
+                <div class="block-head__title">Рейтинг МФО</div><a class="block-head__link" href="#">Все банки</a>
+              </div>
+              <div class="main-rating-table">
+                <div class="main-rating-table__head">
+                  <div class="main-rating-table__head-number">№</div>
+                  <div class="main-rating-table__head-bank">Банк</div>
+                  <div class="main-rating-table__head-value">Рейтинг</div>
+                  <div class="main-rating-table__head-reviews">отзывы</div>
+                </div>
+                <div class="main-rating-table__body">
+                  <div class="main-rating-table__item">
+                    <div class="main-rating-table__item-number">
+                      <div class="main-rating-table__number">1</div>
+                    </div>
+                    <div class="main-rating-table__item-bank">
+                      <div class="main-rating-table__bank"><a class="link" href="#"><img src="static/images/content/r6.png" alt=""></a></div>
+                    </div>
+                    <div class="main-rating-table__item-value">
+                      <div class="main-rating-table__value main-rating-table__value_full">100</div>
+                    </div>
+                    <div class="main-rating-table__item-reciews">
+                      <div class="main-rating-table__reviews">102 отзыва</div>
+                    </div>
+                  </div>
+                  <div class="main-rating-table__item">
+                    <div class="main-rating-table__item-number">
+                      <div class="main-rating-table__number">2</div>
+                    </div>
+                    <div class="main-rating-table__item-bank">
+                      <div class="main-rating-table__bank"><a class="link" href="#"><img src="static/images/content/r7.png" alt=""></a></div>
+                    </div>
+                    <div class="main-rating-table__item-value">
+                      <div class="main-rating-table__value">96</div>
+                    </div>
+                    <div class="main-rating-table__item-reciews">
+                      <div class="main-rating-table__reviews">84 отзыва</div>
+                    </div>
+                  </div>
+                  <div class="main-rating-table__item">
+                    <div class="main-rating-table__item-number">
+                      <div class="main-rating-table__number">3</div>
+                    </div>
+                    <div class="main-rating-table__item-bank">
+                      <div class="main-rating-table__bank"><a class="link" href="#"><img src="static/images/content/r8.png" alt=""></a></div>
+                    </div>
+                    <div class="main-rating-table__item-value">
+                      <div class="main-rating-table__value">90</div>
+                    </div>
+                    <div class="main-rating-table__item-reciews">
+                      <div class="main-rating-table__reviews">77 отзыва</div>
+                    </div>
+                  </div>
+                  <div class="main-rating-table__item">
+                    <div class="main-rating-table__item-number">
+                      <div class="main-rating-table__number">4</div>
+                    </div>
+                    <div class="main-rating-table__item-bank">
+                      <div class="main-rating-table__bank"><a class="link" href="#"><img src="static/images/content/r9.png" alt=""></a></div>
+                    </div>
+                    <div class="main-rating-table__item-value">
+                      <div class="main-rating-table__value">87</div>
+                    </div>
+                    <div class="main-rating-table__item-reciews">
+                      <div class="main-rating-table__reviews">63 отзыва</div>
+                    </div>
+                  </div>
+                  <div class="main-rating-table__item">
+                    <div class="main-rating-table__item-number">
+                      <div class="main-rating-table__number">5</div>
+                    </div>
+                    <div class="main-rating-table__item-bank">
+                      <div class="main-rating-table__bank"><a class="link" href="#"><img src="static/images/content/r10.png" alt=""></a></div>
+                    </div>
+                    <div class="main-rating-table__item-value">
+                      <div class="main-rating-table__value">85</div>
+                    </div>
+                    <div class="main-rating-table__item-reciews">
+                      <div class="main-rating-table__reviews">54 отзыва</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="question">
+        <div class="container">
+          <div class="question__title">Остались вопросы?</div>
+          <div class="row">
+            <div class="question__left col">
+              <div class="question-list">
+                <div class="question-item">
+                  <div class="question-item__answer fcc"><span>2</span>ответа</div>
+                  <div class="question-item__info"><a class="question-item__title" href="#">Как построить птичник для индюков в частном подворье?</a>
+                    <div class="question-item__stars"><img src="static/images/general/star-full.png" alt=""><img src="static/images/general/star-full.png" alt=""><img src="static/images/general/star-full.png" alt=""><img src="static/images/general/star-full.png" alt=""><img src="static/images/general/star-null.png" alt=""></div>
+                  </div>
+                </div>
+                <div class="question-item">
+                  <div class="question-item__answer fcc"><span>8</span>ответа</div>
+                  <div class="question-item__info"><a class="question-item__title" href="#">Пройди тест: легко ли тебя взломать в интернете?</a>
+                    <div class="question-item__stars"><img src="static/images/general/star-full.png" alt=""><img src="static/images/general/star-full.png" alt=""><img src="static/images/general/star-full.png" alt=""><img src="static/images/general/star-full.png" alt=""><img src="static/images/general/star-null.png" alt=""></div>
+                  </div>
+                </div>
+                <div class="question-item">
+                  <div class="question-item__answer fcc"><span>25</span>ответа</div>
+                  <div class="question-item__info"><a class="question-item__title" href="#">Где взять кредит без официального трудоустройства?</a>
+                    <div class="question-item__stars"><img src="static/images/general/star-full.png" alt=""><img src="static/images/general/star-full.png" alt=""><img src="static/images/general/star-full.png" alt=""><img src="static/images/general/star-full.png" alt=""><img src="static/images/general/star-null.png" alt=""></div>
+                  </div>
+                </div>
+                <div class="question-item">
+                  <div class="question-item__answer fcc"><span>57</span>ответа</div>
+                  <div class="question-item__info"><a class="question-item__title" href="#">​Где получить кредит неработающим пенсионерам - список банков</a>
+                    <div class="question-item__stars"><img src="static/images/general/star-full.png" alt=""><img src="static/images/general/star-full.png" alt=""><img src="static/images/general/star-full.png" alt=""><img src="static/images/general/star-full.png" alt=""><img src="static/images/general/star-null.png" alt=""></div>
+                  </div>
+                </div>
+                <div class="question-item">
+                  <div class="question-item__answer fcc"><span>101</span>ответа</div>
+                  <div class="question-item__info"><a class="question-item__title" href="#">15 способов как научиться экономить и копить деньги при маленькой зарплате</a>
+                    <div class="question-item__stars"><img src="static/images/general/star-full.png" alt=""><img src="static/images/general/star-full.png" alt=""><img src="static/images/general/star-full.png" alt=""><img src="static/images/general/star-full.png" alt=""><img src="static/images/general/star-null.png" alt=""></div>
+                  </div>
+                </div>
+              </div><a class="question__link" href="#">Посмотреть все вопросы</a>
+            </div>
+            <div class="question__right col">
+              <div class="question__info"> 
+                <div class="question__info-title">Остались вопросы?</div>
+                <div class="question__info-count">248</div>
+                <div class="question__info-count-txt">вопросов получили <br>свой ответ</div>
+                <div class="question__info-txt">Для того, чтобы консультация была максимально полезна, сформулируйте свой вопрос как можно четче и шире, опишите проблему.</div><a class="blue-btn question__info-link" href="#">Задать вопрос</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer__col col">
+              <div class="footer-item">
+                <div class="footer-item__title">Кредиты</div>
+                <ul class="footer-menu">
+                  <li class="footer-menu__item"><a href="#">Без справок о доходах</a></li>
+                  <li class="footer-menu__item"><a href="#">В день обращения</a></li>
+                  <li class="footer-menu__item"><a href="#">Самые выгодные</a></li>
+                  <li class="footer-menu__item"><a href="#">Наличными</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__col col">
+              <div class="footer-item">
+                <div class="footer-item__title">Вклады</div>
+                <ul class="footer-menu">
+                  <li class="footer-menu__item"><a href="#">Вклады</a></li>
+                  <li class="footer-menu__item"><a href="#">Мультивалютные</a></li>
+                  <li class="footer-menu__item"><a href="#">Самые выгодные</a></li>
+                  <li class="footer-menu__item"><a href="#">С пополнением</a></li>
+                  <li class="footer-menu__item"><a href="#">Пенсионные</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__col col">
+              <div class="footer-item">
+                <div class="footer-item__title">Ипотека</div>
+                <ul class="footer-menu">
+                  <li class="footer-menu__item"><a href="#">Без первоначального взноса</a></li>
+                  <li class="footer-menu__item"><a href="#">Для молодой семьи</a></li>
+                  <li class="footer-menu__item"><a href="#">Государственная</a></li>
+                  <li class="footer-menu__item"><a href="#">Самая выгодная</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__col col">
+              <div class="footer-item">
+                <div class="footer-item__title">Кредитные карты</div>
+                <ul class="footer-menu">
+                  <li class="footer-menu__item"><a href="#">Без справок о доходах</a></li>
+                  <li class="footer-menu__item"><a href="#">С льготным периодом</a></li>
+                  <li class="footer-menu__item"><a href="#">Для снятия наличных</a></li>
+                  <li class="footer-menu__item"><a href="#">Для студентов</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__col col">
+              <div class="footer-item">
+                <div class="footer-item__title">Дебетовые карты</div>
+                <ul class="footer-menu">
+                  <li class="footer-menu__item"><a href="#">Дебетовые карты</a></li>
+                  <li class="footer-menu__item"><a href="#">С овердрафтом</a></li>
+                  <li class="footer-menu__item"><a href="#">Бесплатные</a></li>
+                  <li class="footer-menu__item"><a href="#">С кэшбеком</a></li>
+                  <li class="footer-menu__item"><a href="#">Доходные</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__col col">
+              <div class="footer-item">
+                <div class="footer-item__title">Микрозаймы</div>
+                <ul class="footer-menu">
+                  <li class="footer-menu__item"><a href="#">На карту</a></li>
+                  <li class="footer-menu__item"><a href="#">Под ПТС</a></li>
+                  <li class="footer-menu__item"><a href="#">Без процентов</a></li>
+                  <li class="footer-menu__item"><a href="#">На Киви</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__col col">
+              <div class="footer-item">
+                <div class="footer-item__title">Курсы валют</div>
+                <ul class="footer-menu">
+                  <li class="footer-menu__item"><a href="#">Доллара</a></li>
+                  <li class="footer-menu__item"><a href="#">Евро</a></li>
+                  <li class="footer-menu__item"><a href="#">Доллара по ЦБ РФ</a></li>
+                  <li class="footer-menu__item"><a href="#">Евро по ЦБ РФ</a></li>
+                  <li class="footer-menu__item"><a href="#">Отделения банков</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__col col">
+              <div class="footer-item">
+                <div class="footer-item__title">Продукты в банках</div>
+                <ul class="footer-menu">
+                  <li class="footer-menu__item"><a href="#">Вклады в банках</a></li>
+                  <li class="footer-menu__item"><a href="#">Кредиты в банках</a></li>
+                  <li class="footer-menu__item"><a href="#">Дебетовые карты в банках</a></li>
+                  <li class="footer-menu__item"><a href="#">Кредитные карты в банках</a></li>
+                  <li class="footer-menu__item"><a href="#">Ипотека в банках</a></li>
+                  <li class="footer-menu__item"><a href="#">Автокредиты в банках</a></li>
+                  <li class="footer-menu__item"><a href="#">Займы в МФО</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__col col footer__col_logo">
+              <div class="footer__logo"><img src="static/images/general/logo.png" alt=""></div>
+            </div>
+            <div class="footer__col footer__col_70 col">
+              <form class="footer-search">
+                <input class="footer-search__input" type="text" placeholder="Что вы хотите найти?">
+                <button class="footer-search__btn"><img src="static/images/general/lupa.png" alt=""></button>
+              </form>
+              <div class="footer__bottom flex">
+                <div class="copyright">Копирование материалов допускается только при использовании активной ссылки на этот сайт <br> или источник информации</div>
+                <div class="footer__links"><a class="footer__link" href="#">Карта сайта</a><a class="footer__link" href="#">Реклама на сайте</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="static/js/jquery-3.3.1.min.js"></script>
+    <script src="static/js/libs.min.js"></script>
+    <script src="static/js/main.js"></script>
+  </body>
 </html>
